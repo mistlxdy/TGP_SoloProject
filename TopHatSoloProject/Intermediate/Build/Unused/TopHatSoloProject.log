@@ -1,0 +1,8 @@
+﻿  Building 3 actions with 8 processes...
+    [1/3] Player1.cpp
+    [2/3] UE4Editor-TopHatSoloProject.lib
+       Creating library C:\Users\p018236h\OneDrive - Staffordshire University\TGP\SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.lib and object C:\Users\p018236h\OneDrive - Staffordshire University\TGP\SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.exp
+    [3/3] UE4Editor-TopHatSoloProject.dll
+       Creating library C:\Users\p018236h\OneDrive - Staffordshire University\TGP\SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.lib and object C:\Users\p018236h\OneDrive - Staffordshire University\TGP\SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.exp
+  Deploying TopHatSoloProjectEditor Win64 Development...
+  Total build time: 3.89 seconds (Parallel executor: 1.73 seconds)

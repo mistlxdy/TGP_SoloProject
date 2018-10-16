@@ -1,0 +1,3 @@
+C:\Users\p018236h\OneDrive - Staffordshire University\TGP\SoloProject\TopHatSoloProject\Source\TopHatSoloProject\TopHatSoloProject.Build.cs
+C:\Users\p018236h\OneDrive - Staffordshire University\TGP\SoloProject\TopHatSoloProject\Source\TopHatSoloProject.Target.cs
+C:\Users\p018236h\OneDrive - Staffordshire University\TGP\SoloProject\TopHatSoloProject\Source\TopHatSoloProjectEditor.Target.cs
