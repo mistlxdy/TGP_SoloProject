@@ -5530,3 +5530,5 @@ Missing Cooked Info(expected 0): 0
 
 [2018.10.16-23.21.15:536][199]LogPlayLevel: Completed Launch On Stage: Post Launch Task, Time: 0.000008
 [2018.10.16-23.21.15:537][199]LogPlayLevel: Launch On Completed. Time: 41.692767
+[2018.10.16-23.23.59:187][908]LogSlate: Window 'Output Log' being destroyed
+[2018.10.16-23.23.59:193][908]LogSlate: Window 'Output Log' being destroyed
