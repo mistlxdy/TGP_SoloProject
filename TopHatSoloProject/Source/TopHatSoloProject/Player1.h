@@ -49,4 +49,6 @@ public:
 	virtual void MoveForward(float value);
 	virtual void MoveRight(float value);
 	FVector NewLocation;
+
+
 };
