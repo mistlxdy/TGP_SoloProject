@@ -590,3 +590,383 @@ LogInit: Object subsystem initialized
 [2018.10.19-11.29.09:727][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainMenu/MainMenuWidget]
 [2018.10.19-11.29.09:820][ 18]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidget_Auto18374B1BE4CD4B8CE5DE43F9A884EA37C.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/Autosaves/Game/MainMenu/MainMenuWidget_Auto1.uasset'
 [2018.10.19-11.29.09:825][ 18]LogFileHelpers: Auto-saving content packages took 0.101
+[2018.10.19-11.29.50:211][935]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.33.02:290][416]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.19-11.33.03:905][536]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.19-11.33.04:713][596]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.19-11.34.37:737][ 16]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.19-11.34.59:151][686]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.19-11.35.07:194][310]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.19-11.35.08:465][414]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.35.15:955][993]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.19-11.36.00:307][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Game/MainMenu/MainMenuWidget.MainMenuWidget:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.00:307][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_21.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:307][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_15.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:307][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_30:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.00:307][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_30.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:307][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_38.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:307][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_3.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_37.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_4.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_36.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_5.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_6.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_7.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_35.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_18:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_8.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_18:ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_22:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_17.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_10.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_22:ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_30:ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_11.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_12.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_16.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_13:ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_13:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_20.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_31.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_40.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_41.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_42.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_43.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_44.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_45.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_46.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_47.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_48.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_49.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_50.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_51.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_52.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_53.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_54.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_55.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_56.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_64.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.TRASHCLASS_MainMenuWidget_106:ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_61.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_SKEL_MainMenuWidget_C_58:ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.TRASHCLASS_MainMenuWidget_108:ResolutionMenu
+[2018.10.19-11.36.00:308][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_57:ResolutionMenu
+[2018.10.19-11.36.00:309][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_57:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.00:309][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Game/MainMenu/MainMenuWidget.MainMenuWidget_C:ResolutionMenu
+[2018.10.19-11.36.00:309][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Game/MainMenu/MainMenuWidget.MainMenuWidget_C:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.00:309][619]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_62.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.00:309][619]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu.VerticalBoxSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.Res3).  Import failed...
+[2018.10.19-11.36.00:309][619]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"ResolutionMenu.VerticalBoxSlot_2"''
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Game/MainMenu/MainMenuWidget.MainMenuWidget:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_21.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_15.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_30:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_30.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_38.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_3.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_37.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_4.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_36.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_5.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_6.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_7.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:567][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_35.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_18:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_8.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_18:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_22:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_17.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_10.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_22:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_30:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_11.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_12.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_16.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_13:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_13:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_20.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_31.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_40.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_41.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_42.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_43.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_44.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_45.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_46.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_47.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_48.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_49.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_50.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_51.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_52.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_53.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_54.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_55.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_56.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_65.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_SKEL_MainMenuWidget_C_59:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_64.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.TRASHCLASS_MainMenuWidget_109:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.TRASHCLASS_MainMenuWidget_106:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_61.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_SKEL_MainMenuWidget_C_58:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.TRASHCLASS_MainMenuWidget_108:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Engine/Transient.REINST_MainMenuWidget_C_57:ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.REINST_MainMenuWidget_C_57:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.02:568][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or ObjectProperty /Game/MainMenu/MainMenuWidget.MainMenuWidget_C:ResolutionMenu
+[2018.10.19-11.36.02:569][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Game/MainMenu/MainMenuWidget.MainMenuWidget_C:WidgetTree.ResolutionMenu
+[2018.10.19-11.36.02:569][786]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu or VerticalBox /Engine/Transient.World_1:MainMenuWidget_C_62.WidgetTree_0.ResolutionMenu
+[2018.10.19-11.36.02:569][786]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_1:MainMenuWidget_C_39.WidgetTree_0.ResolutionMenu.VerticalBoxSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.Res3).  Import failed...
+[2018.10.19-11.36.02:569][786]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"ResolutionMenu.VerticalBoxSlot_2"''
+[2018.10.19-11.36.59:365][567]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.37.02:533][884]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidgetCD6B346445B9B7091C66D4BE6D214229.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.37.02:535][884]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.37.03:035][884]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.37.03:035][884]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.37.04:691][884]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.37.04:695][884]EditorErrors: New page: Save Output
+[2018.10.19-11.37.04:695][884]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.37.06:229][ 61]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.37.06:232][ 61]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.38.29:655][ 16]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.38.31:978][267]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-11.38.32:023][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.38.32:024][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-11.38.32:024][267]PIE: New page: PIE session: ThirdPersonExampleMap (19 Oct 2018 13:38:32)
+[2018.10.19-11.38.32:024][267]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.38.32:041][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016547s)
+[2018.10.19-11.38.32:041][267]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.38.32:042][267]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2018.10.19-11.38.32:042][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017688s)
+[2018.10.19-11.38.32:082][267]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.19-11.38.32:098][267]LogInit: FAudioDevice initialized.
+[2018.10.19-11.38.32:109][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.38.32:155][267]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.38.32:157][267]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.38.32
+[2018.10.19-11.38.32:158][267]LogWorld: Bringing up level for play took: 0.001579
+[2018.10.19-11.38.32:169][267]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.38.32:169][267]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.38.32:169][267]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.38.32:172][267]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.38.32:174][267]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.174
+[2018.10.19-11.38.32:175][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.38.33:083][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.38.33:084][365]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.38.33:084][365]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.38.33:084][365]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.38.33:085][365]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.38.33:120][365]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.38.33:133][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013100s)
+[2018.10.19-11.38.33:134][365]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.38.33:134][365]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2018.10.19-11.38.33:134][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014110s)
+[2018.10.19-11.38.33:134][365]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.38.33:143][365]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.38.33
+[2018.10.19-11.38.33:144][365]LogWorld: Bringing up level for play took: 0.008297
+[2018.10.19-11.38.33:144][365]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.38.33:144][365]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.38.33:144][365]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.38.33:147][365]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.38.33:147][365]LogLoad: Took 0.061960 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.38.33:487][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.38.33:488][404]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.38.33:488][404]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.38.33:488][404]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.38.33:488][404]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.38.33:521][404]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.38.33:532][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011352s)
+[2018.10.19-11.38.33:533][404]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.38.33:533][404]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2018.10.19-11.38.33:533][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012533s)
+[2018.10.19-11.38.33:533][404]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.38.33:542][404]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.38.33
+[2018.10.19-11.38.33:542][404]LogWorld: Bringing up level for play took: 0.008305
+[2018.10.19-11.38.33:543][404]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.38.33:543][404]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.38.33:543][404]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.38.33:546][404]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.38.33:546][404]LogLoad: Took 0.057579 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.38.33:653][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.38.33:653][416]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.38.33:653][416]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.38.33:654][416]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.38.33:654][416]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.38.33:686][416]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.38.33:698][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011899s)
+[2018.10.19-11.38.33:699][416]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.38.33:699][416]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2018.10.19-11.38.33:699][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012812s)
+[2018.10.19-11.38.33:699][416]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.38.33:700][416]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.38.33
+[2018.10.19-11.38.33:701][416]LogWorld: Bringing up level for play took: 0.001342
+[2018.10.19-11.38.33:701][416]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.38.33:701][416]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.38.33:701][416]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.38.33:704][416]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.38.33:704][416]LogLoad: Took 0.050071 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.38.34:470][504]LogSlate: Window 'TopHatSoloProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.19-11.38.34:474][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.38.34:509][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-11.38.34:509][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.38.34:556][505]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.10.19-11.39.01:394][762]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.39.02:323][823]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-11.39.02:368][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.39.02:369][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-11.39.02:369][823]PIE: New page: PIE session: ThirdPersonExampleMap (19 Oct 2018 13:39:02)
+[2018.10.19-11.39.02:369][823]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.39.02:381][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012429s)
+[2018.10.19-11.39.02:382][823]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.39.02:382][823]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2018.10.19-11.39.02:382][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013544s)
+[2018.10.19-11.39.02:422][823]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.19-11.39.02:436][823]LogInit: FAudioDevice initialized.
+[2018.10.19-11.39.02:447][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.39.02:490][823]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.39.02:492][823]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.39.02
+[2018.10.19-11.39.02:493][823]LogWorld: Bringing up level for play took: 0.001423
+[2018.10.19-11.39.02:504][823]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.02:504][823]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.02:504][823]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.02:507][823]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.02:509][823]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.161
+[2018.10.19-11.39.02:509][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.39.03:400][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.39.03:400][879]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.03:401][879]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.03:401][879]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.03:401][879]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.03:434][879]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.39.03:445][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011379s)
+[2018.10.19-11.39.03:446][879]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.39.03:446][879]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2018.10.19-11.39.03:446][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012393s)
+[2018.10.19-11.39.03:446][879]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.39.03:459][879]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.39.03
+[2018.10.19-11.39.03:460][879]LogWorld: Bringing up level for play took: 0.012830
+[2018.10.19-11.39.03:461][879]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.03:461][879]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.03:461][879]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.03:463][879]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.03:463][879]LogLoad: Took 0.062342 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.39.03:704][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.39.03:705][895]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.03:705][895]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.03:706][895]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.03:706][895]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.03:738][895]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.39.03:750][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011916s)
+[2018.10.19-11.39.03:750][895]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.39.03:751][895]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2018.10.19-11.39.03:751][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012842s)
+[2018.10.19-11.39.03:751][895]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.39.03:754][895]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.39.03
+[2018.10.19-11.39.03:755][895]LogWorld: Bringing up level for play took: 0.003339
+[2018.10.19-11.39.03:755][895]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.03:755][895]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.03:756][895]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.03:758][895]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.03:758][895]LogLoad: Took 0.052461 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.39.03:885][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.39.03:886][903]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.03:886][903]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.03:886][903]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.03:886][903]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.03:918][903]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.39.03:931][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012419s)
+[2018.10.19-11.39.03:931][903]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.39.03:932][903]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.10.19-11.39.03:932][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013301s)
+[2018.10.19-11.39.03:932][903]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.39.03:934][903]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.39.03
+[2018.10.19-11.39.03:934][903]LogWorld: Bringing up level for play took: 0.001526
+[2018.10.19-11.39.03:935][903]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.03:935][903]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.03:935][903]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.03:937][903]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.03:937][903]LogLoad: Took 0.050845 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.39.04:047][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.39.04:048][910]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.04:048][910]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.04:048][910]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.04:048][910]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.04:080][910]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.39.04:093][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012590s)
+[2018.10.19-11.39.04:094][910]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.39.04:094][910]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2018.10.19-11.39.04:094][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013645s)
+[2018.10.19-11.39.04:094][910]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.39.04:096][910]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.39.04
+[2018.10.19-11.39.04:096][910]LogWorld: Bringing up level for play took: 0.001629
+[2018.10.19-11.39.04:097][910]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.04:097][910]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.04:097][910]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.04:100][910]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.04:100][910]LogLoad: Took 0.051249 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.39.04:193][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.39.04:194][916]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.04:194][916]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.04:195][916]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.04:195][916]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.04:227][916]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.39.04:239][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012226s)
+[2018.10.19-11.39.04:240][916]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.39.04:240][916]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2018.10.19-11.39.04:240][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013140s)
+[2018.10.19-11.39.04:240][916]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.39.04:242][916]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.39.04
+[2018.10.19-11.39.04:242][916]LogWorld: Bringing up level for play took: 0.001269
+[2018.10.19-11.39.04:243][916]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.04:243][916]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.04:243][916]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.04:246][916]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.04:246][916]LogLoad: Took 0.050329 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.39.04:353][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.39.04:353][923]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.04:354][923]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.04:354][923]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.04:354][923]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.04:386][923]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.39.04:399][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012347s)
+[2018.10.19-11.39.04:399][923]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.39.04:399][923]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2018.10.19-11.39.04:399][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013233s)
+[2018.10.19-11.39.04:399][923]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.39.04:401][923]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.39.04
+[2018.10.19-11.39.04:402][923]LogWorld: Bringing up level for play took: 0.001457
+[2018.10.19-11.39.04:402][923]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.04:402][923]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.04:402][923]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.04:405][923]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.04:405][923]LogLoad: Took 0.050648 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.39.04:519][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.39.04:520][930]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.04:520][930]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.39.04:521][930]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.04:521][930]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.39.04:558][930]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.39.04:570][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012517s)
+[2018.10.19-11.39.04:571][930]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.39.04:571][930]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2018.10.19-11.39.04:571][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013509s)
+[2018.10.19-11.39.04:571][930]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.39.04:573][930]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.39.04
+[2018.10.19-11.39.04:573][930]LogWorld: Bringing up level for play took: 0.001463
+[2018.10.19-11.39.04:574][930]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.04:574][930]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.39.04:574][930]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.04:576][930]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.39.04:576][930]LogLoad: Took 0.055684 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.39.05:011][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.39.05:011][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.39.05:038][959]LogSlate: Window 'TopHatSoloProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.19-11.39.05:066][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-11.39.05:066][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.39.05:121][960]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.19-11.39.08:257][268]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.10.19-11.39.08:275][268]Candidate modules for hot reload:
+[2018.10.19-11.39.08:275][268]  TopHatSoloProject
+[2018.10.19-11.39.08:276][268]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TopHatSoloProject,9075 Win64 Development -TargetType=Editor -Project="../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" -canskiplink "C:/Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" ]
+[2018.10.19-11.39.08:289][268]Warning: Starting HotReload took  0.2s.
