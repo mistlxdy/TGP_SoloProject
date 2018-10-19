@@ -970,3 +970,708 @@ LogInit: Object subsystem initialized
 [2018.10.19-11.39.08:275][268]  TopHatSoloProject
 [2018.10.19-11.39.08:276][268]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TopHatSoloProject,9075 Win64 Development -TargetType=Editor -Project="../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" -canskiplink "C:/Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" ]
 [2018.10.19-11.39.08:289][268]Warning: Starting HotReload took  0.2s.
+[2018.10.19-11.39.33:904][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.026
+[2018.10.19-11.39.33:907][695]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MainMenu/MainMenuWidget] ([1] browsable assets)...
+[2018.10.19-11.39.33:907][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainMenu/MainMenuWidget]
+[2018.10.19-11.39.34:001][695]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidget_Auto2A0F2D98F4C71CCBD387DA0AE24D36BE4.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/Autosaves/Game/MainMenu/MainMenuWidget_Auto2.uasset'
+[2018.10.19-11.39.34:004][695]LogFileHelpers: Auto-saving content packages took 0.099
+[2018.10.19-11.39.43:265][526]LogEditorViewport: Clicking on Actor (LMB): TopHatPickUp_C (TopHatPickUp)
+[2018.10.19-11.39.44:998][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.19-11.39.46:518][839]LogEditorViewport: Clicking on Actor (LMB): Vampire_Player_C (Vampire_Player)
+[2018.10.19-11.39.48:639][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.40.21:707][  5]CompilerResultsLog: New page: Compilation - 19 Oct 2018 13:40:21
+[2018.10.19-11.40.21:707][  5]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.10.19-11.40.21:707][  5]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.19-11.40.21:707][  5]CompilerResultsLog: Creating makefile for hot reloading TopHatSoloProjectEditor (game project files are newer)
+[2018.10.19-11.40.21:707][  5]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.19-11.40.21:708][  5]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.10.19-11.40.21:708][  5]CompilerResultsLog: Target is up to date
+[2018.10.19-11.40.21:708][  5]CompilerResultsLog: Total build time: 72.93 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.10.19-11.40.21:708][  5]LogMainFrame: MainFrame: Module compiling took 73.451 seconds
+[2018.10.19-11.40.22:057][  5]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2578 classes and 608 folders.
+[2018.10.19-11.40.22:057][  5]Display: HotReload took 74.0s.
+[2018.10.19-11.40.24:262][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.40.24:312][267]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-11.40.24:342][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.40.24:342][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-11.40.24:343][267]PIE: New page: PIE session: ThirdPersonExampleMap (19 Oct 2018 13:40:24)
+[2018.10.19-11.40.24:343][267]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.40.24:356][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013354s)
+[2018.10.19-11.40.24:357][267]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.40.24:357][267]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2018.10.19-11.40.24:357][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014548s)
+[2018.10.19-11.40.24:449][267]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.19-11.40.24:463][267]LogInit: FAudioDevice initialized.
+[2018.10.19-11.40.24:495][267]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.40.24:498][267]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.40.24
+[2018.10.19-11.40.24:498][267]LogWorld: Bringing up level for play took: 0.002137
+[2018.10.19-11.40.24:512][267]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.24:512][267]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.24:512][267]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.24:517][267]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.24:517][267]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.17
+[2018.10.19-11.40.24:517][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.40.25:242][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.40.25:243][345]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.25:243][345]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.25:243][345]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.25:244][345]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.25:279][345]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.40.25:290][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010982s)
+[2018.10.19-11.40.25:291][345]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.40.25:291][345]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2018.10.19-11.40.25:291][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012086s)
+[2018.10.19-11.40.25:291][345]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.40.25:301][345]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.40.25
+[2018.10.19-11.40.25:301][345]LogWorld: Bringing up level for play took: 0.009122
+[2018.10.19-11.40.25:302][345]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.25:302][345]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.25:302][345]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.25:304][345]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.25:304][345]LogLoad: Took 0.060643 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.40.25:696][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.40.25:697][390]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.25:697][390]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.25:697][390]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.25:697][390]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.25:732][390]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.40.25:742][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010653s)
+[2018.10.19-11.40.25:743][390]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.40.25:743][390]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2018.10.19-11.40.25:744][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011776s)
+[2018.10.19-11.40.25:744][390]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.40.25:754][390]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.40.25
+[2018.10.19-11.40.25:755][390]LogWorld: Bringing up level for play took: 0.010224
+[2018.10.19-11.40.25:755][390]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.25:755][390]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.25:755][390]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.25:758][390]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.25:758][390]LogLoad: Took 0.060639 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.40.25:864][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.40.25:864][402]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.25:864][402]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.25:865][402]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.25:865][402]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.25:897][402]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.40.25:910][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012052s)
+[2018.10.19-11.40.25:910][402]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.40.25:910][402]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2018.10.19-11.40.25:910][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012941s)
+[2018.10.19-11.40.25:910][402]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.40.25:912][402]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.40.25
+[2018.10.19-11.40.25:913][402]LogWorld: Bringing up level for play took: 0.001528
+[2018.10.19-11.40.25:913][402]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.25:913][402]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.25:913][402]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.25:916][402]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.25:916][402]LogLoad: Took 0.050732 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.40.26:014][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.40.26:015][413]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.26:015][413]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.26:016][413]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.26:016][413]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.26:048][413]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.40.26:060][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011350s)
+[2018.10.19-11.40.26:061][413]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.40.26:061][413]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2018.10.19-11.40.26:061][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012411s)
+[2018.10.19-11.40.26:061][413]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.40.26:063][413]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.40.26
+[2018.10.19-11.40.26:064][413]LogWorld: Bringing up level for play took: 0.002103
+[2018.10.19-11.40.26:064][413]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.26:064][413]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.26:064][413]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.26:067][413]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.26:067][413]LogLoad: Took 0.051124 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.40.26:157][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.40.26:158][423]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.26:158][423]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.26:158][423]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.26:158][423]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.26:191][423]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.40.26:203][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011794s)
+[2018.10.19-11.40.26:204][423]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.40.26:204][423]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2018.10.19-11.40.26:204][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012726s)
+[2018.10.19-11.40.26:204][423]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.40.26:206][423]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.40.26
+[2018.10.19-11.40.26:206][423]LogWorld: Bringing up level for play took: 0.001411
+[2018.10.19-11.40.26:207][423]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.26:207][423]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.26:207][423]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.26:209][423]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.26:209][423]LogLoad: Took 0.051012 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.40.26:308][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.40.26:308][434]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.26:308][434]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.26:309][434]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.26:309][434]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.26:340][434]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.40.26:351][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011450s)
+[2018.10.19-11.40.26:352][434]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.40.26:352][434]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2018.10.19-11.40.26:352][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012358s)
+[2018.10.19-11.40.26:352][434]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.40.26:354][434]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.40.26
+[2018.10.19-11.40.26:354][434]LogWorld: Bringing up level for play took: 0.001429
+[2018.10.19-11.40.26:355][434]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.26:355][434]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.26:355][434]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.26:357][434]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.26:357][434]LogLoad: Took 0.048027 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.40.26:505][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.40.26:506][451]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.26:506][451]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.40.26:506][451]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.26:506][451]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2018.10.19-11.40.26:539][451]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.40.26:550][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010831s)
+[2018.10.19-11.40.26:551][451]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.40.26:551][451]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2018.10.19-11.40.26:551][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011919s)
+[2018.10.19-11.40.26:551][451]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.40.26:553][451]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.40.26
+[2018.10.19-11.40.26:553][451]LogWorld: Bringing up level for play took: 0.001335
+[2018.10.19-11.40.26:554][451]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.26:554][451]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.40.26:554][451]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.26:556][451]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.40.26:556][451]LogLoad: Took 0.050009 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2018.10.19-11.40.27:009][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.40.27:009][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.40.27:046][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-11.40.27:046][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.40.27:080][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.40.27:113][505]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.10.19-11.41.12:244][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.41.51:814][897]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MainMenu/VampireGameMode.VampireGameMode
+[2018.10.19-11.42.00:500][835]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MainMenu/HUD.HUD
+[2018.10.19-11.42.11:409][ 42]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2018.10.19-11.42.15:909][ 42]LogSlate: Window 'Save Content' being destroyed
+[2018.10.19-11.42.16:023][ 42]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidgetAC9A5EFF49D650F0BDB8EB9E0CF80FAD.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.42.16:024][ 42]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.42.16:524][ 42]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.42.16:524][ 42]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.42.17:794][ 42]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.42.17:886][ 42]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidget8C19C8D048B4397303900A9EAD3F5FD8.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.42.17:887][ 42]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.42.18:389][ 42]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.42.18:389][ 42]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.42.22:677][ 42]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.42.22:775][ 42]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidget265394C24E2DA508007CABB94F8EDF5E.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.42.22:776][ 42]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.42.23:277][ 42]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.42.23:277][ 42]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.42.24:184][ 42]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.42.24:797][ 42]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/ThirdPersonExampleMap643DC88D4815745E23DCBF9E8ED91489.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.42.24:798][ 42]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2018.10.19-11.42.25:299][ 42]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'.
+[2018.10.19-11.42.25:299][ 42]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.42.25:322][ 42]EditorErrors: New page: Save Output
+[2018.10.19-11.42.25:322][ 42]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.42.25:335][ 42]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.146
+[2018.10.19-11.42.26:749][ 42]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.42.26:752][ 42]EditorErrors: New page: Save Output
+[2018.10.19-11.42.26:752][ 42]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.42.26:753][ 42]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.42.26:753][ 42]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.42.28:134][ 42]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2018.10.19-11.42.28:143][ 42]LightingResults: New page: Lighting Build
+[2018.10.19-11.42.28:144][ 42]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.10.19-11.42.28:145][ 42]MapCheck: New page: Map Check
+[2018.10.19-11.42.28:145][ 42]LightingResults: New page: Lighting Build
+[2018.10.19-11.42.28:264][ 42]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.42.28:292][ 42]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.19-11.42.28:376][ 42]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.19-11.42.28:665][ 42]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 288.897ms to complete.
+[2018.10.19-11.42.28:666][ 42]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.528
+[2018.10.19-11.42.33:567][613]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.42.33:570][613]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.43.03:601][887]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.43.04:488][965]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidgetC503861F48EEAB3433FA52B60C74E8FD.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.43.04:489][965]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.43.04:990][965]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.43.04:990][965]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.43.06:785][965]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.43.06:791][965]EditorErrors: New page: Save Output
+[2018.10.19-11.43.06:791][965]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.43.07:784][ 80]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.43.07:787][ 80]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.44.40:670][  7]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.44.42:146][169]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-11.44.42:184][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.44.42:184][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-11.44.42:184][169]PIE: New page: PIE session: ThirdPersonExampleMap (19 Oct 2018 13:44:42)
+[2018.10.19-11.44.42:184][169]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-11.44.42:199][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014514s)
+[2018.10.19-11.44.42:199][169]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.44.42:200][169]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2018.10.19-11.44.42:200][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015567s)
+[2018.10.19-11.44.42:248][169]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.19-11.44.42:265][169]LogInit: FAudioDevice initialized.
+[2018.10.19-11.44.42:297][169]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.19-11.44.42:299][169]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-12.44.42
+[2018.10.19-11.44.42:299][169]LogWorld: Bringing up level for play took: 0.001461
+[2018.10.19-11.44.42:313][169]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.44.42:313][169]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-11.44.42:313][169]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.44.42:318][169]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-11.44.42:319][169]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.03
+[2018.10.19-11.44.42:319][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.44.42:853][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.44.42:854][224]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.44.42:854][224]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.19-11.44.42:855][224]LogNet: Browse: /Game/MainMenu/TestLevel
+[2018.10.19-11.44.42:855][224]LogLoad: LoadMap: /Game/MainMenu/TestLevel
+[2018.10.19-11.44.42:892][224]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_TestLevel
+[2018.10.19-11.44.42:893][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000730s)
+[2018.10.19-11.44.42:893][224]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.19-11.44.42:893][224]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2018.10.19-11.44.42:893][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/TestLevel.TestLevel to /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel (0.001642s)
+[2018.10.19-11.44.42:893][224]LogLoad: Game class is 'TopHatSoloProjectGameMode'
+[2018.10.19-11.44.42:894][224]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.10.19-12.44.42
+[2018.10.19-11.44.42:894][224]LogWorld: Bringing up level for play took: 0.000341
+[2018.10.19-11.44.42:895][224]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.10.19-11.44.42:899][224]LogLoad: Took 0.044367 seconds to LoadMap(/Game/MainMenu/UEDPIE_0_TestLevel)
+[2018.10.19-11.44.45:734][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.44.45:735][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.44.45:769][561]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-11.44.45:770][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-11.44.45:804][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-11.44.45:841][563]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.19-11.44.57:186][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.45.00:780][340]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidgetD62A247D4AA71234EC323B802EF0FB14.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.45.00:781][340]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.45.01:282][340]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.45.01:282][340]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.45.44:558][340]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.45.44:655][340]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidgetA2E0CD3D4CD1CC74DFCCFBA2B2A77B6C.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.45.44:656][340]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.45.45:158][340]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.45.45:158][340]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.45.49:531][340]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.45.49:536][340]EditorErrors: New page: Save Output
+[2018.10.19-11.45.49:536][340]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.45.49:536][340]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.45.50:745][340]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2018.10.19-11.45.56:687][ 51]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.45.56:689][ 51]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.45.57:815][186]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.46.01:446][561]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/ThirdPersonExampleMap83AE7ECD4B30290FE1AAF3B2C83E120F.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.46.01:447][561]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2018.10.19-11.46.01:948][561]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'.
+[2018.10.19-11.46.01:948][561]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.46.01:977][561]EditorErrors: New page: Save Output
+[2018.10.19-11.46.01:977][561]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.46.06:557][102]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.46.06:559][102]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.46.10:538][529]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/TestLevelEA8D973847928628AD67B19AB7F98320.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/TestLevel.umap'
+[2018.10.19-11.46.10:548][529]LogFileHelpers: Saving map 'TestLevel' took 0.341
+[2018.10.19-11.46.10:635][529]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidgetBF82EBDC4B8B3C68360A8086B4DC4579.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.46.10:635][529]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.46.11:137][529]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.46.11:137][529]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.46.12:712][529]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.46.12:801][529]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidget78BE99D140A9F632193E3883960C45A5.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.46.12:802][529]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.46.13:304][529]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.46.13:304][529]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.46.14:349][529]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.46.14:354][529]EditorErrors: New page: Save Output
+[2018.10.19-11.46.14:354][529]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.46.14:354][529]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.46.16:547][529]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2018.10.19-11.46.18:772][788]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.46.18:775][788]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.46.20:974][ 41]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MainMenu/MainMenuWidget.MainMenuWidget
+[2018.10.19-11.47.49:389][398]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/ThirdPersonExampleMapCECA17DA4DE9AE2DBDB91F80CB6780B1.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.47.49:390][398]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2018.10.19-11.47.49:891][398]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'.
+[2018.10.19-11.47.49:891][398]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.47.49:922][398]EditorErrors: New page: Save Output
+[2018.10.19-11.47.49:922][398]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.47.52:224][668]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.47.52:227][668]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.47.57:970][327]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/ThirdPersonExampleMapCD5A41254E49A667B31ED091D3805638.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.47.57:972][327]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2018.10.19-11.47.58:473][327]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'.
+[2018.10.19-11.47.58:473][327]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.47.58:502][327]EditorErrors: New page: Save Output
+[2018.10.19-11.47.58:502][327]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.48.09:717][655]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.48.09:719][655]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.48.13:220][ 53]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidgetCF3A023F47C3923F53ABE3A591D122C1.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.48.13:221][ 53]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.48.13:722][ 53]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.48.13:722][ 53]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.48.25:751][ 53]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.48.25:849][ 53]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidgetCCB4F8F2417DA5C036605DA1FF3D64F5.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.48.25:851][ 53]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.48.26:351][ 53]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.48.26:351][ 53]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.48.32:373][ 53]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.48.32:378][ 53]EditorErrors: New page: Save Output
+[2018.10.19-11.48.32:378][ 53]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.48.32:378][ 53]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.48.34:675][ 53]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2018.10.19-11.48.37:175][348]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.48.37:178][348]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.48.54:520][303]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidget6C7FBC0D401A425648E36F86A6B971A3.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.48.54:521][303]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.48.55:022][303]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.48.55:022][303]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.49.00:580][303]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.49.00:586][303]EditorErrors: New page: Save Output
+[2018.10.19-11.49.00:586][303]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.49.01:990][303]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2018.10.19-11.49.04:642][547]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.49.04:645][547]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.49.36:136][828]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.49.38:038][ 29]LogAssetEditorManager: Opening Asset editor for World /Game/MainMenu/TestLevel.TestLevel
+[2018.10.19-11.49.39:630][ 29]LogSlate: Window 'Save Content' being destroyed
+[2018.10.19-11.49.42:705][387]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MainMenu/HUD.HUD
+[2018.10.19-11.49.47:322][841]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.10.19-11.49.47:330][841]Candidate modules for hot reload:
+[2018.10.19-11.49.47:330][841]  TopHatSoloProject
+[2018.10.19-11.49.47:330][841]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TopHatSoloProject,2538 Win64 Development -TargetType=Editor -Project="../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" -canskiplink "C:/Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" ]
+[2018.10.19-11.49.47:338][841]Warning: Starting HotReload took  0.0s.
+[2018.10.19-11.49.51:548][346]CompilerResultsLog: New page: Compilation - 19 Oct 2018 13:49:51
+[2018.10.19-11.49.51:548][346]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.19-11.49.51:548][346]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.19-11.49.51:548][346]CompilerResultsLog: Target is up to date
+[2018.10.19-11.49.51:548][346]CompilerResultsLog: Total build time: 3.87 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.10.19-11.49.51:548][346]LogMainFrame: MainFrame: Module compiling took 4.227 seconds
+[2018.10.19-11.49.51:877][346]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2578 classes and 608 folders.
+[2018.10.19-11.49.51:879][346]Display: HotReload took  4.6s.
+[2018.10.19-11.50.34:386][578]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidget81A0BFB349A2975EC66ED482543F98FF.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.50.34:387][578]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset', retrying in .5s...
+[2018.10.19-11.50.34:888][578]LogFileManager: Error: Error deleting file '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'.
+[2018.10.19-11.50.34:888][578]LogSavePackage: Error: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.50.36:530][578]LogSlate: Window 'Message' being destroyed
+[2018.10.19-11.50.36:533][578]EditorErrors: New page: Save Output
+[2018.10.19-11.50.36:534][578]EditorErrors: Warning: Error saving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.50.37:720][578]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2018.10.19-11.50.48:357][618]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.50.48:360][618]LogSlate: Window 'Message Log' being destroyed
+[2018.10.19-11.51.02:807][873]LogSlate: Window 'Save Level As' being destroyed
+[2018.10.19-11.51.41:564][136]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/ThirdPersonExampleMap084321A045407F9030FCF0A582A4C33A.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.19-11.51.41:778][136]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/ThirdPersonExampleMap_BuiltDataBD3392874D08573306FD2499029BE7E2.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.10.19-11.51.43:851][355]BlueprintLog: New page: Compile MainMenuWidget
+[2018.10.19-11.51.44:510][400]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/MainMenuWidgetB98902E04C6BD9AB1A6A26BE3FB4B082.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/MainMenuWidget.uasset'
+[2018.10.19-11.52.17:276][ 60]LogAssetEditorManager: Opening Asset editor for World /Game/MainMenu/TestLevel.TestLevel
+[2018.10.19-11.52.17:312][ 60]LightingResults: New page: Lighting Build
+[2018.10.19-11.52.17:313][ 60]LoadErrors: New page: Loading map: TestLevel.umap
+[2018.10.19-11.52.17:314][ 60]MapCheck: New page: Map Check
+[2018.10.19-11.52.17:314][ 60]LightingResults: New page: Lighting Build
+[2018.10.19-11.52.17:351][ 60]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.19-11.52.17:351][ 60]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.19-11.52.17:434][ 60]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.19-11.52.17:720][ 60]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 285.548ms to complete.
+[2018.10.19-11.52.17:721][ 60]LogFileHelpers: Loading map 'TestLevel' took 0.410
+[2018.10.19-11.52.26:155][ 44]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.52.26:178][ 44]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2018.10.19-11.52.26:213][ 44]LightingResults: New page: Lighting Build
+[2018.10.19-11.52.26:214][ 44]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.10.19-11.52.26:214][ 44]MapCheck: New page: Map Check
+[2018.10.19-11.52.26:214][ 44]LightingResults: New page: Lighting Build
+[2018.10.19-11.52.26:252][ 44]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.19-11.52.26:334][ 44]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.19-11.52.26:621][ 44]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 287.765ms to complete.
+[2018.10.19-11.52.26:622][ 44]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.411
+[2018.10.19-11.52.36:567][210]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.19-11.52.36:569][210]LogAssetEditorManager: Opening Asset editor for World /Game/MainMenu/TestLevel.TestLevel
+[2018.10.19-11.52.36:603][210]LightingResults: New page: Lighting Build
+[2018.10.19-11.52.36:604][210]LoadErrors: New page: Loading map: TestLevel.umap
+[2018.10.19-11.52.36:605][210]MapCheck: New page: Map Check
+[2018.10.19-11.52.36:605][210]LightingResults: New page: Lighting Build
+[2018.10.19-11.52.36:639][210]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.19-11.52.36:720][210]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.19-11.52.37:007][210]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 287.243ms to complete.
+[2018.10.19-11.52.37:009][210]LogFileHelpers: Loading map 'TestLevel' took 0.408
+[2018.10.19-11.52.37:972][313]LogEditorViewport: Clicking Background
+[2018.10.19-11.52.39:059][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.54.12:232][560]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.10.19-11.54.12:291][560]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.19-11.54.12:291][560]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.10.19-11.54.12:336][560]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.19-11.54.12:336][560]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.19-11.54.12:336][560]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.10.19-11.54.12:401][560]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.10.19-11.54.12:550][560]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.10.19-11.54.12:717][560]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.19-11.54.12:742][560]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.19-11.54.12:769][560]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.19-11.54.12:794][560]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.19-11.54.12:838][560]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.10.19-11.54.12:871][560]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.10.19-11.54.12:914][560]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.10.19-11.54.12:930][560]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.10.19-11.54.16:173][903]LogShaderCompilers: Display: Shaders left to compile 188
+[2018.10.19-11.54.17:754][ 58]LogShaderCompilers: Display: Shaders left to compile 178
+[2018.10.19-11.54.17:871][ 64]LogShaderCompilers: Display: Shaders left to compile 168
+[2018.10.19-11.54.18:335][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.10.19-11.54.20:578][362]LogShaderCompilers: Display: Shaders left to compile 158
+[2018.10.19-11.54.22:074][534]LogShaderCompilers: Display: Shaders left to compile 148
+[2018.10.19-11.54.22:279][558]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.10.19-11.54.24:549][820]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.10.19-11.54.25:722][956]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.10.19-11.54.26:393][ 34]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.10.19-11.54.28:790][311]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.10.19-11.54.30:764][539]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.10.19-11.54.31:177][586]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.10.19-11.54.33:596][867]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.10.19-11.54.34:978][ 27]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.19-11.54.35:499][ 88]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.19-11.54.37:892][365]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.19-11.54.39:162][512]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.19-11.54.39:565][558]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.19-11.54.42:069][594]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.19-11.55.04:695][405]LogStaticMesh: Building static mesh Floor_400x400...
+[2018.10.19-11.55.04:779][405]LogStaticMesh: Built static mesh [0.08s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2018.10.19-11.55.05:489][405]LogAIModule: Creating AISystem for world StarterMap
+[2018.10.19-11.55.05:598][405]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/StarterMap.StarterMap
+[2018.10.19-11.55.06:919][405]LogSlate: Window 'Save Content' being destroyed
+[2018.10.19-11.55.09:712][705]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/TestLevelB0F2A7BB4F496AC70644199E04940570.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/TestLevel.umap'
+[2018.10.19-11.55.15:827][416]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-11.55.15:848][416]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2018.10.19-11.55.15:884][416]LightingResults: New page: Lighting Build
+[2018.10.19-11.55.15:885][416]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.10.19-11.55.15:886][416]MapCheck: New page: Map Check
+[2018.10.19-11.55.15:886][416]LightingResults: New page: Lighting Build
+[2018.10.19-11.55.15:996][416]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.19-11.55.16:078][416]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.19-11.55.16:577][416]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 498.938ms to complete.
+[2018.10.19-11.55.16:578][416]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.695
+[2018.10.19-11.56.01:521][738]LogAssetEditorManager: Opening Asset editor for Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2018.10.19-11.56.19:024][188]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2018.10.19-11.56.19:026][188]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2018.10.19-11.56.25:510][914]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.19-11.56.25:512][914]LogAssetEditorManager: Opening Asset editor for World /Game/MainMenu/TestLevel.TestLevel
+[2018.10.19-11.56.25:552][914]LightingResults: New page: Lighting Build
+[2018.10.19-11.56.25:553][914]LoadErrors: New page: Loading map: TestLevel.umap
+[2018.10.19-11.56.25:554][914]MapCheck: New page: Map Check
+[2018.10.19-11.56.25:554][914]LightingResults: New page: Lighting Build
+[2018.10.19-11.56.25:591][914]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.19-11.56.25:680][914]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.19-11.56.26:178][914]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 496.979ms to complete.
+[2018.10.19-11.56.26:179][914]LogFileHelpers: Loading map 'TestLevel' took 0.627
+[2018.10.19-11.56.54:540][276]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.19-11.57.01:871][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.57.01:974][156]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2018.10.19-11.57.17:822][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.57.18:422][ 64]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.10.19-11.57.18:440][ 64]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 109
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 106
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.10.19-11.57.28:446][ 64]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.19-11.57.28:447][ 64]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.19-11.57.51:075][655]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-11.58.06:153][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.58.35:667][920]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-11.58.43:170][650]LogMaterial: Display: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2018.10.19-11.58.43:210][650]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.10.19-11.58.43:210][650]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.19-11.58.43:210][650]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.19-11.58.47:251][104]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-11.58.51:272][493]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.19-11.58.53:600][757]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.19-11.58.54:140][819]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.19-11.58.55:455][970]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-11.59.02:455][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.59.04:867][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.59.05:963][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.10.19-11.59.20:965][975]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.19-11.59.22:264][122]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.19-11.59.22:605][161]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.19-11.59.22:855][189]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.19-11.59.23:105][217]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.19-11.59.23:363][246]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.19-11.59.26:912][666]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-11.59.36:456][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-11.59.40:866][294]LogEditorActor: Deleted Actor: Landscape
+[2018.10.19-11.59.40:941][294]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2018.10.19-11.59.48:053][141]LogActorFactory: Actor Factory created Plane
+[2018.10.19-11.59.48:634][206]LogActorFactory: Actor Factory created Plane
+[2018.10.19-11.59.51:023][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-12.00.03:873][949]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.19-12.00.08:397][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.10.19-12.00.09:942][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-12.00.12:414][909]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.19-12.00.16:173][346]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.16:173][346]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.19-12.00.16:530][378]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.16:530][378]LogEditorTransaction: Undo Replace component used material
+[2018.10.19-12.00.16:913][420]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.16:913][420]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.19-12.00.17:361][470]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.17:361][470]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.19-12.00.17:886][528]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.17:886][528]LogEditorTransaction: Undo Move Actors
+[2018.10.19-12.00.18:223][567]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.18:223][567]LogEditorTransaction: Undo Animatable Property Changed
+[2018.10.19-12.00.18:549][605]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.18:549][605]LogEditorTransaction: Undo Move Actors
+[2018.10.19-12.00.18:874][643]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.18:874][643]LogEditorTransaction: Undo Animatable Property Changed
+[2018.10.19-12.00.19:183][679]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.19:183][679]LogEditorTransaction: Undo Move Actors
+[2018.10.19-12.00.19:376][701]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.19:376][701]LogEditorTransaction: Undo Animatable Property Changed
+[2018.10.19-12.00.19:559][722]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.19:559][722]LogEditorTransaction: Undo Move Actors
+[2018.10.19-12.00.19:743][743]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.19:743][743]LogEditorTransaction: Undo Animatable Property Changed
+[2018.10.19-12.00.19:943][766]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.19:943][766]LogEditorTransaction: Undo Create Actors
+[2018.10.19-12.00.20:121][787]Cmd: TRANSACTION UNDO
+[2018.10.19-12.00.20:121][787]LogEditorTransaction: Undo Delete selection
+[2018.10.19-12.00.29:262][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.00.35:736][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.00.43:300][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.00.59:400][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.01.05:006][ 54]Cmd: DELETE
+[2018.10.19-12.01.05:006][ 54]Cmd: ACTOR DELETE
+[2018.10.19-12.01.05:011][ 54]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.10.19-12.01.05:048][ 54]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2018.10.19-12.01.06:039][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.01.08:974][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.01.18:107][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.01.24:306][277]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.19-12.01.29:578][881]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.19-12.01.38:618][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.01.38:693][930]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-12.01.38:726][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-12.01.38:726][930]PIE: New page: PIE session: TestLevel (19 Oct 2018 14:01:38)
+[2018.10.19-12.01.38:726][930]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_TestLevel
+[2018.10.19-12.01.38:739][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013274s)
+[2018.10.19-12.01.38:740][930]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.19-12.01.38:740][930]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2018.10.19-12.01.38:740][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/TestLevel.TestLevel to /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel (0.014214s)
+[2018.10.19-12.01.38:811][930]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.19-12.01.38:836][930]LogInit: FAudioDevice initialized.
+[2018.10.19-12.01.38:873][930]LogLoad: Game class is 'TopHatSoloProjectGameMode'
+[2018.10.19-12.01.38:878][930]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.10.19-13.01.38
+[2018.10.19-12.01.38:880][930]LogWorld: Bringing up level for play took: 0.006161
+[2018.10.19-12.01.38:897][930]PIE: Play in editor start time for /Game/MainMenu/UEDPIE_0_TestLevel 0.561
+[2018.10.19-12.01.40:800][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-12.01.40:839][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-12.01.40:876][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-12.01.40:900][152]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.19-12.01.44:517][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.01.47:361][913]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.10.19-12.01.47:600][913]LogSavePackage: Moving '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Saved/TestLevel0A6A48D743A513D6D554F7B009FE36EB.tmp' to '../../../../../../Users/p018236h/OneDrive - Staffordshire University/TGP/SoloProject/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/TestLevel.umap'
+[2018.10.19-12.02.46:790][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-12.02.47:055][904]LogSlate: Window 'TopHatSoloProject - Unreal Editor' being destroyed
+[2018.10.19-12.02.47:341][905]Cmd: QUIT_EDITOR
+[2018.10.19-12.02.47:684][905]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.19-12.02.47:705][905]LogExit: Preparing to exit.
+[2018.10.19-12.02.48:947][905]LogExit: Editor shut down
+[2018.10.19-12.02.48:948][905]LogExit: Transaction tracking system shut down
