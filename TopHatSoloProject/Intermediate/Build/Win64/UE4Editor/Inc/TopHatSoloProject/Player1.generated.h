@@ -13,8 +13,46 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TOPHATSOLOPROJECT_Player1_generated_h
 
-#define TopHatSoloProject_Source_TopHatSoloProject_Player1_h_14_RPC_WRAPPERS
-#define TopHatSoloProject_Source_TopHatSoloProject_Player1_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define TopHatSoloProject_Source_TopHatSoloProject_Player1_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetTopHatCount) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_newTopHatCount); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTopHatCount(Z_Param_newTopHatCount); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTopHatCount) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetTopHatCount(); \
+		P_NATIVE_END; \
+	}
+
+
+#define TopHatSoloProject_Source_TopHatSoloProject_Player1_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetTopHatCount) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_newTopHatCount); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTopHatCount(Z_Param_newTopHatCount); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTopHatCount) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetTopHatCount(); \
+		P_NATIVE_END; \
+	}
+
+
 #define TopHatSoloProject_Source_TopHatSoloProject_Player1_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayer1(); \

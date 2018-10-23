@@ -30,3 +30,8 @@ void ATopHatPickUp::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 	OnActivate(OtherActor);
 }
+
+void ATopHatPickUp::TopHatAcquired()
+{
+
+}

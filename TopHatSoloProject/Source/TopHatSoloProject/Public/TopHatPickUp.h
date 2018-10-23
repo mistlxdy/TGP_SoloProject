@@ -32,4 +32,6 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
 	void OnActivate(AActor* pickedupBy);
+
+	void TopHatAcquired();
 };

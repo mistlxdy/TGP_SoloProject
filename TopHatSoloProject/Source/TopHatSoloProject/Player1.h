@@ -50,5 +50,13 @@ public:
 	virtual void MoveRight(float value);
 	FVector NewLocation;
 
+	UPROPERTY(EditAnywhere, Category = "TopHat")
+	int TopHatCount;
 
+	UFUNCTION(BlueprintCallable, Category = "TopHat")
+	int GetTopHatCount();
+	UFUNCTION(BlueprintCallable, Category = "TopHat")
+	void SetTopHatCount(int newTopHatCount);
+
+	void CheckTopHatCount();
 };

@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeTopHatSoloProject_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/TopHatSoloProject",
 				PKG_CompiledIn | 0x00000000,
-				0x3CCFE19C,
-				0xDF75F049,
+				0xD7768244,
+				0xAC5CDBFE,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

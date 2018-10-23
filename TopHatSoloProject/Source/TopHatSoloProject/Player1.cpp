@@ -36,7 +36,7 @@ APlayer1::APlayer1()
 void APlayer1::BeginPlay()
 {
 	Super::BeginPlay();
-	RootComponent->AddLocalRotation(FRotator(0, -90, 0));
+	//RootComponent->AddLocalRotation(FRotator(0, -90, 0));
 }
 
 // Called every frame
@@ -61,10 +61,29 @@ void APlayer1::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void APlayer1::MoveForward(float value)
 {
-	CurrentVelocity.X = value * 100;
+	CurrentVelocity.X = value * 1000;
 }
 
 void APlayer1::MoveRight(float value)
 {
-	CurrentVelocity.Y = value * 100;
+	CurrentVelocity.Y = value * 1000;
 }
+
+
+int APlayer1::GetTopHatCount()
+{
+	return TopHatCount;
+}
+
+void APlayer1::SetTopHatCount(int newTopHatCount)
+{
+	TopHatCount = newTopHatCount;
+}
+
+//void APlayer1::CheckTopHatCount()
+//{
+//	if (TopHatCount = 5)
+//	{
+//		FGenericPlatformMisc::RequestExit(false);
+//	}
+//}

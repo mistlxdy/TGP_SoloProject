@@ -31,6 +31,6 @@ public:
 	void NotifyActorBeginOverlap(AActor* OtherActor);
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Pick Up")
-		void OnActivate(AActor* pickedUpBy);
+	void OnActivate(AActor* pickedUpBy);
 	
 };

@@ -17,10 +17,84 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 	TOPHATSOLOPROJECT_API UClass* Z_Construct_UClass_APlayer1();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_TopHatSoloProject();
+	TOPHATSOLOPROJECT_API UFunction* Z_Construct_UFunction_APlayer1_GetTopHatCount();
+	TOPHATSOLOPROJECT_API UFunction* Z_Construct_UFunction_APlayer1_SetTopHatCount();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void APlayer1::StaticRegisterNativesAPlayer1()
 	{
+		UClass* Class = APlayer1::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "GetTopHatCount", &APlayer1::execGetTopHatCount },
+			{ "SetTopHatCount", &APlayer1::execSetTopHatCount },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics
+	{
+		struct Player1_eventGetTopHatCount_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Int, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(Player1_eventGetTopHatCount_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::Function_MetaDataParams[] = {
+		{ "Category", "TopHat" },
+		{ "ModuleRelativePath", "Player1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer1, "GetTopHatCount", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Player1_eventGetTopHatCount_Parms), Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayer1_GetTopHatCount()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics
+	{
+		struct Player1_eventSetTopHatCount_Parms
+		{
+			int32 newTopHatCount;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_newTopHatCount;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::NewProp_newTopHatCount = { UE4CodeGen_Private::EPropertyClass::Int, "newTopHatCount", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Player1_eventSetTopHatCount_Parms, newTopHatCount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::NewProp_newTopHatCount,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::Function_MetaDataParams[] = {
+		{ "Category", "TopHat" },
+		{ "ModuleRelativePath", "Player1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer1, "SetTopHatCount", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Player1_eventSetTopHatCount_Parms), Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayer1_SetTopHatCount()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer1_SetTopHatCount_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_APlayer1_NoRegister()
 	{
@@ -29,9 +103,14 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 	struct Z_Construct_UClass_APlayer1_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TopHatCount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TopHatCount;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TopHatBaseMeshcomponent_MetaData[];
 #endif
@@ -64,6 +143,10 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_TopHatSoloProject,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_APlayer1_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APlayer1_GetTopHatCount, "GetTopHatCount" }, // 2302923568
+		{ &Z_Construct_UFunction_APlayer1_SetTopHatCount, "SetTopHatCount" }, // 1017957078
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer1_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -71,6 +154,13 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 		{ "ModuleRelativePath", "Player1.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatCount_MetaData[] = {
+		{ "Category", "TopHat" },
+		{ "ModuleRelativePath", "Player1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatCount = { UE4CodeGen_Private::EPropertyClass::Int, "TopHatCount", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(APlayer1, TopHatCount), METADATA_PARAMS(Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatCount_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatBaseMeshcomponent_MetaData[] = {
 		{ "Category", "Player1" },
@@ -122,6 +212,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayer1_Statics::NewProp_VampireHeadMeshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "VampireHeadMeshComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a0009, 1, nullptr, STRUCT_OFFSET(APlayer1, VampireHeadMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayer1_Statics::NewProp_VampireHeadMeshComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer1_Statics::NewProp_VampireHeadMeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayer1_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatCount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatBaseMeshcomponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatRingMeshComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatBrimMeshComponent,
@@ -136,7 +227,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 		&APlayer1::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_APlayer1_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_APlayer1_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -152,7 +243,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer1, 4179044877);
+	IMPLEMENT_CLASS(APlayer1, 565782847);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer1(Z_Construct_UClass_APlayer1, &APlayer1::StaticClass, TEXT("/Script/TopHatSoloProject"), TEXT("APlayer1"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer1);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
