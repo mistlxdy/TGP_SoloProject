@@ -57,18 +57,24 @@ void APlayer1::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayer1::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayer1::MoveRight);
+	//PlayerInputComponent->BindAxis("Jump", IE_Pressed, this, &APlayer1::Jump);
 }
 
 void APlayer1::MoveForward(float value)
 {
-	CurrentVelocity.X = value * 1000;
+	CurrentVelocity.X = value * 500;
 }
 
 void APlayer1::MoveRight(float value)
 {
-	CurrentVelocity.Y = value * 1000;
+	CurrentVelocity.Y = value * 500;
 }
 
+void APlayer1::Jump(float value)
+{
+	// TODO : THIS
+	CurrentVelocity.Z = value * 100;
+}
 
 int APlayer1::GetTopHatCount()
 {

@@ -13,7 +13,7 @@ class ATopHatSoloProjectGameMode : public AGameModeBase
 
 public:
 	ATopHatSoloProjectGameMode();
-};
 
-
-
+	/*UPROPERTY(VisibleAnywhere)
+	void DifficultySetUp();*/
+}; 

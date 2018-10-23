@@ -48,6 +48,8 @@ public:
 
 	virtual void MoveForward(float value);
 	virtual void MoveRight(float value);
+	virtual void Jump(float value);
+
 	FVector NewLocation;
 
 	UPROPERTY(EditAnywhere, Category = "TopHat")

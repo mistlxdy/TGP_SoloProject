@@ -82,9 +82,15 @@
     <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Spawner.h">
       <Filter>Source\TopHatSoloProject\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Timer.h">
+      <Filter>Source\TopHatSoloProject\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Spawner.cpp">
+      <Filter>Source\TopHatSoloProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Timer.cpp">
       <Filter>Source\TopHatSoloProject\Private</Filter>
     </ClCompile>
   </ItemGroup>

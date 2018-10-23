@@ -422,8 +422,10 @@
     <ClInclude Include="..\..\Source\TopHatSoloProject\Player1.h" />
     <None Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.Build.cs" />
     <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Spawner.cpp" />
+    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Timer.cpp" />
     <ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.cpp" />
     <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Spawner.h" />
+    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Timer.h" />
     <ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.h" />
     <ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectCharacter.cpp" />
     <ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectCharacter.h" />
