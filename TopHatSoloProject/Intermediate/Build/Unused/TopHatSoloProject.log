@@ -1,18 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for TopHatSoloProjectEditor (no existing makefile)
-  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for TopHatSoloProjectEditor
-    Running UnrealHeaderTool "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\TopHatSoloProject.uproject" "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\TopHatSoloProjectEditor\Development\TopHatSoloProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for TopHatSoloProjectEditor in 10.6665937 seconds
-  Deleting old hot reload file: "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Binaries\Win64\UE4Editor-TopHatSoloProject-2389.dll".
-  Deleting old hot reload file: "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Binaries\Win64\UE4Editor-TopHatSoloProject-2389.pdb".
-  Building 5 actions with 8 processes...
-    [1/5] TopHatSoloProject.init.gen.cpp
-    [2/5] TopHatBoost.cpp
-    [3/5] TopHatBoost.gen.cpp
-    [4/5] UE4Editor-TopHatSoloProject.lib
-       Creating library C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.lib and object C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.exp
-    [5/5] UE4Editor-TopHatSoloProject.dll
-       Creating library C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.lib and object C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.exp
+  Target is up to date
   Deploying TopHatSoloProjectEditor Win64 Development...
-  Total build time: 21.92 seconds (Parallel executor: 2.97 seconds)
+  Total build time: 2.37 seconds (NoActionsToExecute executor: 0.00 seconds)
