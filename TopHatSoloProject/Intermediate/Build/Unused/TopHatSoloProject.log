@@ -1,21 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for TopHatSoloProjectEditor (no existing makefile)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for TopHatSoloProjectEditor
-    Running UnrealHeaderTool "E:\TGP_SoloProject\TopHatSoloProject\TopHatSoloProject.uproject" "E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\TopHatSoloProjectEditor\Development\TopHatSoloProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for TopHatSoloProjectEditor in 12.2012838 seconds
-  Building 5 actions with 4 processes...
+    Running UnrealHeaderTool "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\TopHatSoloProject.uproject" "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\TopHatSoloProjectEditor\Development\TopHatSoloProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TopHatSoloProjectEditor in 10.6665937 seconds
+  Deleting old hot reload file: "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Binaries\Win64\UE4Editor-TopHatSoloProject-2389.dll".
+  Deleting old hot reload file: "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Binaries\Win64\UE4Editor-TopHatSoloProject-2389.pdb".
+  Building 5 actions with 8 processes...
     [1/5] TopHatSoloProject.init.gen.cpp
-    [2/5] Timer.gen.cpp
-    [3/5] Timer.cpp
+    [2/5] TopHatBoost.cpp
+    [3/5] TopHatBoost.gen.cpp
     [4/5] UE4Editor-TopHatSoloProject.lib
-       Creating library E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.lib and object E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.exp
+       Creating library C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.lib and object C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.exp
     [5/5] UE4Editor-TopHatSoloProject.dll
-       Creating library E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.lib and object E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.exp
-Timer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class UGameInstance>(class UGameInstance *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VUGameInstance@@@@YAPEAVUUserWidget@@PEAVUGameInstance@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
-Timer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "public: void __cdecl ATimer::HardMode(float)" (?HardMode@ATimer@@QEAAXM@Z)
-Timer.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class UGameInstance &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVUGameInstance@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class UGameInstance>(class UGameInstance *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VUGameInstance@@@@YAPEAVUUserWidget@@PEAVUGameInstance@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
-Timer.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_ATimer_Statics::NewProp_FailedGame''(void)" (??__E?NewProp_FailedGame@Z_Construct_UClass_ATimer_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
-E:\TGP_SoloProject\TopHatSoloProject\Binaries\Win64\UE4Editor-TopHatSoloProject.dll : fatal error LNK1120: 4 unresolved externals
-UnrealBuildTool : error : UBT ERROR: Failed to produce item: E:\TGP_SoloProject\TopHatSoloProject\Binaries\Win64\UE4Editor-TopHatSoloProject.dll
-                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-  Total build time: 18.46 seconds (Parallel executor: 0.00 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "C:\Epic\UE4\UE_4.20\Engine\Build\BatchFiles\Build.bat TopHatSoloProjectEditor Win64 Development "E:\TGP_SoloProject\TopHatSoloProject\TopHatSoloProject.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+       Creating library C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.lib and object C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.exp
+  Deploying TopHatSoloProjectEditor Win64 Development...
+  Total build time: 21.92 seconds (Parallel executor: 2.97 seconds)

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TopHatSoloProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D765870B-554F-452C-9DD7-18FF262F037C}</UniqueIdentifier>
+      <UniqueIdentifier>{1BACBF13-BC67-4188-A0A2-C725A57E0363}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TopHatSoloProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7A5649BA-508E-4109-B5A4-2FDDC8BC9748}</UniqueIdentifier>
+      <UniqueIdentifier>{A43A792C-EA7C-4008-8472-D90DB6AE06D1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TopHatSoloProject">
-      <UniqueIdentifier>{C7F52D55-87BD-46C6-AB71-9CC49D58E858}</UniqueIdentifier>
+      <UniqueIdentifier>{484EF7C3-233D-4E5E-B239-2BC8B99A1754}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopHatSoloProject\Player1.cpp">
       <Filter>Source\TopHatSoloProject</Filter>
@@ -60,18 +60,30 @@
       <Filter>Source\TopHatSoloProject</Filter>
     </ClInclude>
     <Filter Include="Source\TopHatSoloProject\Private">
-      <UniqueIdentifier>{22209D50-DE3F-4479-A94E-2D9FF50563FE}</UniqueIdentifier>
+      <UniqueIdentifier>{FA75733D-8BAF-4CC7-8098-7488D696163D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopHatSoloProject\Private\PickUpBase.cpp">
+      <Filter>Source\TopHatSoloProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Spawner.cpp">
+      <Filter>Source\TopHatSoloProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Timer.cpp">
       <Filter>Source\TopHatSoloProject\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TopHatSoloProject\Private\TopHatPickUp.cpp">
       <Filter>Source\TopHatSoloProject\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TopHatSoloProject\Public">
-      <UniqueIdentifier>{EB7FC489-25FE-4CD9-9F5F-48174EEFA870}</UniqueIdentifier>
+      <UniqueIdentifier>{6A8EBF4E-0AD5-48BC-AB5A-262B48F9178D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TopHatSoloProject\Public\PickUpBase.h">
+      <Filter>Source\TopHatSoloProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Spawner.h">
+      <Filter>Source\TopHatSoloProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Timer.h">
       <Filter>Source\TopHatSoloProject\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\TopHatSoloProject\Public\TopHatPickUp.h">
@@ -79,18 +91,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Spawner.h">
-      <Filter>Source\TopHatSoloProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Timer.h">
+    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\TopHatBoost.h">
       <Filter>Source\TopHatSoloProject\Public</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Spawner.cpp">
-      <Filter>Source\TopHatSoloProject\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Timer.cpp">
+    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\TopHatBoost.cpp">
       <Filter>Source\TopHatSoloProject\Private</Filter>
     </ClCompile>
   </ItemGroup>

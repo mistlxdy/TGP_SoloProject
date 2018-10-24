@@ -421,19 +421,21 @@
     <ClCompile Include="..\..\Source\TopHatSoloProject\Player1.cpp" />
     <ClInclude Include="..\..\Source\TopHatSoloProject\Player1.h" />
     <None Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.Build.cs" />
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Spawner.cpp" />
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Timer.cpp" />
+    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\TopHatBoost.cpp" />
     <ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.cpp" />
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Spawner.h" />
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Timer.h" />
+    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\TopHatBoost.h" />
     <ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.h" />
     <ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectCharacter.cpp" />
     <ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectCharacter.h" />
     <ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectGameMode.cpp" />
     <ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectGameMode.h" />
     <ClCompile Include="..\..\Source\TopHatSoloProject\Private\PickUpBase.cpp" />
+    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Spawner.cpp" />
+    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Timer.cpp" />
     <ClCompile Include="..\..\Source\TopHatSoloProject\Private\TopHatPickUp.cpp" />
     <ClInclude Include="..\..\Source\TopHatSoloProject\Public\PickUpBase.h" />
+    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Spawner.h" />
+    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Timer.h" />
     <ClInclude Include="..\..\Source\TopHatSoloProject\Public\TopHatPickUp.h" />
   </ItemGroup>
   <PropertyGroup>
