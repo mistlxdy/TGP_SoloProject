@@ -43,8 +43,8 @@ void ATopHatBoost::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void ATopHatBoost::SpeedBoost(float value, float DeltaTime)
+void ATopHatBoost::SpeedBoost(float value)
 {
-	vampirePlayer->CurrentVelocity.X = (value * 500) * DeltaTime;
-	vampirePlayer->CurrentVelocity.Y = (value * 500) * DeltaTime;
+	vampirePlayer->CurrentVelocity.X = (value * 1000);
+	vampirePlayer->CurrentVelocity.Y = (value * 1000);
 }

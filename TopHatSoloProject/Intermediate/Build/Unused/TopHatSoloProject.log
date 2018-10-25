@@ -1,9 +1,4 @@
-﻿  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for TopHatSoloProjectEditor (no existing makefile)
-  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for TopHatSoloProjectEditor
-    Running UnrealHeaderTool "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\TopHatSoloProject.uproject" "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\TopHatSoloProjectEditor\Development\TopHatSoloProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-C:/Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Source/TopHatSoloProject/Public/TopHatBoost.h(8): error : #include found after .generated.h file - the .generated.h file should always be the last #include in a header
-EXEC : error : UnrealHeaderTool failed for target 'TopHatSoloProjectEditor' (platform: Win64, module info: C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\TopHatSoloProjectEditor\Development\TopHatSoloProjectEditor.uhtmanifest, exit code: OtherCompilationError (5)).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "C:\Epic\UE4\UE_4.20\Engine\Build\BatchFiles\Build.bat TopHatSoloProjectEditor Win64 Development "C:\Users\p018236h\Documents\GitHub\TGP_SoloProject\TopHatSoloProject\TopHatSoloProject.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Target is up to date
+  Deploying TopHatSoloProjectEditor Win64 Development...
+  Total build time: 1.48 seconds (NoActionsToExecute executor: 0.00 seconds)

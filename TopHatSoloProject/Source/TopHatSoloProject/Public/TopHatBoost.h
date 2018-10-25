@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "TopHatBoost.generated.h"
 #include "Player1.h"
+#include "TopHatBoost.generated.h" //this should always be the last include
 
 class USphereComponent;
 class StaticMeshComponent;
@@ -42,5 +42,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	void SpeedBoost(float value, float DeltaTime);
+	void SpeedBoost(float value);
 };

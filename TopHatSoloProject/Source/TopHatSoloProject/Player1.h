@@ -61,5 +61,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "TopHat")
 	void SetTopHatCount(int newTopHatCount);
 
+	//UFUNCTION(BlueprintCallable, Category = "Player Speed")
+	//int GetPlayerSpeed(float valueX, float valueY);
+
 	void CheckTopHatCount();
 };
