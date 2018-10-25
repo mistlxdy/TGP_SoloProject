@@ -35,13 +35,16 @@ ATopHatBoost::ATopHatBoost()
 void ATopHatBoost::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void ATopHatBoost::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
+void ATopHatBoost::SpeedBoost(float value, float DeltaTime)
+{
+	vampirePlayer->CurrentVelocity.X = (value * 500) * DeltaTime;
+	vampirePlayer->CurrentVelocity.Y = (value * 500) * DeltaTime;
+}

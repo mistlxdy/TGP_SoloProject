@@ -1,103 +1,100 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\TopHatSoloProject.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{1BACBF13-BC67-4188-A0A2-C725A57E0363}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\TopHatSoloProject.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\TopHatSoloProjectEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{A43A792C-EA7C-4008-8472-D90DB6AE06D1}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\TopHatSoloProject">
-      <UniqueIdentifier>{484EF7C3-233D-4E5E-B239-2BC8B99A1754}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Player1.cpp">
-      <Filter>Source\TopHatSoloProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Player1.h">
-      <Filter>Source\TopHatSoloProject</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.Build.cs">
-      <Filter>Source\TopHatSoloProject</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.cpp">
-      <Filter>Source\TopHatSoloProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.h">
-      <Filter>Source\TopHatSoloProject</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectCharacter.cpp">
-      <Filter>Source\TopHatSoloProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectCharacter.h">
-      <Filter>Source\TopHatSoloProject</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectGameMode.cpp">
-      <Filter>Source\TopHatSoloProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectGameMode.h">
-      <Filter>Source\TopHatSoloProject</Filter>
-    </ClInclude>
-    <Filter Include="Source\TopHatSoloProject\Private">
-      <UniqueIdentifier>{FA75733D-8BAF-4CC7-8098-7488D696163D}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\PickUpBase.cpp">
-      <Filter>Source\TopHatSoloProject\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Spawner.cpp">
-      <Filter>Source\TopHatSoloProject\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\Timer.cpp">
-      <Filter>Source\TopHatSoloProject\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\TopHatPickUp.cpp">
-      <Filter>Source\TopHatSoloProject\Private</Filter>
-    </ClCompile>
-    <Filter Include="Source\TopHatSoloProject\Public">
-      <UniqueIdentifier>{6A8EBF4E-0AD5-48BC-AB5A-262B48F9178D}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\PickUpBase.h">
-      <Filter>Source\TopHatSoloProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Spawner.h">
-      <Filter>Source\TopHatSoloProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\Timer.h">
-      <Filter>Source\TopHatSoloProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\TopHatPickUp.h">
-      <Filter>Source\TopHatSoloProject\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\TopHatSoloProject\Public\TopHatBoost.h">
-      <Filter>Source\TopHatSoloProject\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\TopHatSoloProject\Private\TopHatBoost.cpp">
-      <Filter>Source\TopHatSoloProject\Private</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\TopHatSoloProject.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{22739FE8-9E0E-4FE6-ADDD-DD8F80F77EDA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TopHatSoloProject.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TopHatSoloProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{4915AF5D-6AD5-4701-9767-53F1F0591CC1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TopHatSoloProject">
+			<UniqueIdentifier>{7EB690F4-1C24-4265-88FE-C0164EB32872}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TopHatSoloProject\Player1.cpp">
+			<Filter>Source\TopHatSoloProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TopHatSoloProject\Player1.h">
+			<Filter>Source\TopHatSoloProject</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.Build.cs">
+			<Filter>Source\TopHatSoloProject</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.cpp">
+			<Filter>Source\TopHatSoloProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProject.h">
+			<Filter>Source\TopHatSoloProject</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectCharacter.cpp">
+			<Filter>Source\TopHatSoloProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectCharacter.h">
+			<Filter>Source\TopHatSoloProject</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectGameMode.cpp">
+			<Filter>Source\TopHatSoloProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TopHatSoloProject\TopHatSoloProjectGameMode.h">
+			<Filter>Source\TopHatSoloProject</Filter>
+		</ClInclude >
+		<Filter Include="Source\TopHatSoloProject\Private">
+			<UniqueIdentifier>{F06786C2-D0C1-45A5-AB3A-5C15B8067DB5}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TopHatSoloProject\Private\PickUpBase.cpp">
+			<Filter>Source\TopHatSoloProject\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TopHatSoloProject\Private\Spawner.cpp">
+			<Filter>Source\TopHatSoloProject\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TopHatSoloProject\Private\Timer.cpp">
+			<Filter>Source\TopHatSoloProject\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TopHatSoloProject\Private\TopHatBoost.cpp">
+			<Filter>Source\TopHatSoloProject\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TopHatSoloProject\Private\TopHatPickUp.cpp">
+			<Filter>Source\TopHatSoloProject\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\TopHatSoloProject\Public">
+			<UniqueIdentifier>{CEA11051-9EF2-473B-BAD6-049FFFF5C056}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\TopHatSoloProject\Public\PickUpBase.h">
+			<Filter>Source\TopHatSoloProject\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TopHatSoloProject\Public\Spawner.h">
+			<Filter>Source\TopHatSoloProject\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TopHatSoloProject\Public\Timer.h">
+			<Filter>Source\TopHatSoloProject\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TopHatSoloProject\Public\TopHatBoost.h">
+			<Filter>Source\TopHatSoloProject\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TopHatSoloProject\Public\TopHatPickUp.h">
+			<Filter>Source\TopHatSoloProject\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

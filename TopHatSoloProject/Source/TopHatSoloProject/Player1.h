@@ -37,7 +37,7 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* TopHatBaseMeshcomponent;
 
-	FVector CurrentVelocity;
+	//FVector CurrentVelocity;
 
 public:	
 	// Called every frame
@@ -50,6 +50,7 @@ public:
 	virtual void MoveRight(float value);
 	virtual void Jump(float value);
 
+	FVector CurrentVelocity;
 	FVector NewLocation;
 
 	UPROPERTY(EditAnywhere, Category = "TopHat")

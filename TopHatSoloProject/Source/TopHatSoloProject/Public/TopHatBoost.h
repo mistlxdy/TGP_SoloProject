@@ -5,10 +5,10 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "TopHatBoost.generated.h"
+#include "Player1.h"
 
 class USphereComponent;
 class StaticMeshComponent;
-
 
 UCLASS()
 class TOPHATSOLOPROJECT_API ATopHatBoost : public AActor
@@ -37,8 +37,10 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = "Top Hat Right Feather")
 	UStaticMeshComponent* TopHatRightFeatherMesh;
 
+	APlayer1* vampirePlayer;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	void SpeedBoost(float DeltaTime);
+	void SpeedBoost(float value, float DeltaTime);
 };
