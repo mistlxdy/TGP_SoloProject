@@ -37,7 +37,7 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* TopHatBaseMeshcomponent;
 
-	FVector CurrentVelocity;
+	//FVector CurrentVelocity;
 
 public:	
 	// Called every frame
@@ -50,6 +50,7 @@ public:
 	virtual void MoveRight(float value);
 	virtual void Jump(float value);
 
+	FVector CurrentVelocity;
 	FVector NewLocation;
 
 	UPROPERTY(EditAnywhere, Category = "TopHat")
@@ -59,6 +60,9 @@ public:
 	int GetTopHatCount();
 	UFUNCTION(BlueprintCallable, Category = "TopHat")
 	void SetTopHatCount(int newTopHatCount);
+
+	//UFUNCTION(BlueprintCallable, Category = "Player Speed")
+	//int GetPlayerSpeed(float valueX, float valueY);
 
 	void CheckTopHatCount();
 };

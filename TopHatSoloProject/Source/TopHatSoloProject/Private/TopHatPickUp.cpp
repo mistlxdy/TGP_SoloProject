@@ -33,5 +33,5 @@ void ATopHatPickUp::NotifyActorBeginOverlap(AActor* OtherActor)
 
 void ATopHatPickUp::TopHatAcquired()
 {
-
+	// TO DO :: STUFF
 }

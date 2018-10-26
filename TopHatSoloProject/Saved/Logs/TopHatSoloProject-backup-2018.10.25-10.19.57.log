@@ -1,0 +1,704 @@
+﻿Log file open, 10/25/18 10:10:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TopHatSoloProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.440331
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.219s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.25-09.10.27:968][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.25-09.10.27:968][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.25-09.10.27:985][  0]LogHAL: Display: Platform has ~ 32 GB [34065870848 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.25-09.10.27:985][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.25-09.10.27:985][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.25-09.10.27:986][  0]LogInit: Computer: C117B-012
+[2018.10.25-09.10.27:986][  0]LogInit: User: p018236h
+[2018.10.25-09.10.27:986][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.25-09.10.27:986][  0]LogInit: High frequency timer resolution =3.515625 MHz
+[2018.10.25-09.10.27:986][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2018.10.25-09.10.27:986][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.25-09.10.27:986][  0]LogMemory: Process Physical Memory: 100.94 MB used, 100.94 MB peak
+[2018.10.25-09.10.27:986][  0]LogMemory: Process Virtual Memory: 91.11 MB used, 91.11 MB peak
+[2018.10.25-09.10.27:986][  0]LogMemory: Physical Memory: 7665.89 MB used,  24821.85 MB free, 32487.75 MB total
+[2018.10.25-09.10.27:986][  0]LogMemory: Virtual Memory: 4640.09 MB used,  24821.85 MB free, 134217728.00 MB total
+[2018.10.25-09.10.28:095][  0]LogInit: Using OS detected language (en-US).
+[2018.10.25-09.10.28:095][  0]LogInit: Using OS detected locale (en-GB).
+[2018.10.25-09.10.28:097][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.25-09.10.28:443][  0]LogStreaming: Display: Took  0.348s to InitEngineTextLocalization.
+[2018.10.25-09.10.28:443][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.25-09.10.28:511][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.25-09.10.28:511][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.25-09.10.28:725][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.25-09.10.28:725][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.25-09.10.28:817][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.25-09.10.28:817][  0]LogD3D11RHI:       8088/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.25-09.10.28:822][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.25-09.10.28:822][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.25-09.10.28:822][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.25-09.10.28:828][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.25-09.10.28:829][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.25-09.10.28:829][  0]LogWindows: EnumDisplayDevices:
+[2018.10.25-09.10.28:829][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.25-09.10.28:829][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.10.25-09.10.28:829][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.25-09.10.28:830][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.25-09.10.28:830][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.25-09.10.28:830][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.25-09.10.28:830][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2018.10.25-09.10.28:830][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2018.10.25-09.10.28:830][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.10.25-09.10.28:873][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.25-09.10.28:896][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.25-09.10.28:902][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Intermediate/Shaders/WorkingDirectory/5884/).
+[2018.10.25-09.10.28:902][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/p018236h/AppData/Local/Temp/UnrealShaderWorkingDir/FED0190A48FD1C005B725D9EAE8A4992/'.
+[2018.10.25-09.10.29:231][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.25-09.10.29:257][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.25-09.10.29:272][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.25-09.10.29:304][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.25-09.10.29:321][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.25-09.10.29:340][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.25-09.10.29:365][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.25-09.10.29:387][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.25-09.10.29:407][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.25-09.10.29:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.25-09.10.29:510][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.25-09.10.29:602][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.25-09.10.29:602][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.25-09.10.29:632][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.25-09.10.29:632][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.25-09.10.29:670][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.25-09.10.29:685][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.25-09.10.29:701][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.25-09.10.29:730][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.25-09.10.29:743][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.25-09.10.29:743][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.25-09.10.29:875][  0]LogXGEController: Cleaning working directory: C:/Users/p018236h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.25-09.10.29:876][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.25-09.10.29:876][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.25-09.10.29:876][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.25-09.10.30:720][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.25-09.10.30:720][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2018.10.25-09.10.30:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.25-09.10.30:720][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.25-09.10.30:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.25-09.10.30:720][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.25-09.10.30:733][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.25-09.10.30:748][  0]LogDerivedDataCache: Using Local data cache path C:/Users/p018236h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.25-09.10.30:748][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.25-09.10.30:748][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.25-09.10.30:798][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.25-09.10.30:799][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.25-09.10.30:800][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.25-09.10.30:878][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
+[2018.10.25-09.10.31:223][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.25-09.10.31:412][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.25-09.10.31:420][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.25-09.10.31:420][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.25-09.10.31:420][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.25-09.10.31:420][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.25-09.10.31:443][  0]LogNetVersion: TopHatSoloProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 426773178)
+[2018.10.25-09.10.32:166][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.145939 seconds
+[2018.10.25-09.10.32:174][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.25-09.10.32:174][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.25-09.10.32:174][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.25-09.10.33:228][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.25-09.10.33:249][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.25-09.10.33:935][  0]SourceControl: Source control is disabled
+[2018.10.25-09.10.33:936][  0]SourceControl: Source control is disabled
+[2018.10.25-09.10.33:960][  0]SourceControl: Source control is disabled
+[2018.10.25-09.10.33:979][  0]SourceControl: Source control is disabled
+[2018.10.25-09.10.34:841][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.25-09.10.35:038][  0]LogOcInput: OculusInput pre-init called
+[2018.10.25-09.10.35:251][  0]LogEngine: Initializing Engine...
+[2018.10.25-09.10.35:252][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.25-09.10.35:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.25-09.10.35:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.25-09.10.35:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.25-09.10.35:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.25-09.10.35:833][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.25-09.10.35:864][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.25-09.10.35:879][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.25-09.10.35:922][  0]LogInit: FAudioDevice initialized.
+[2018.10.25-09.10.35:922][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.25-09.10.35:960][  0]LogDerivedDataCache: Saved boot cache 0.04s 73MB C:/Users/p018236h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.25-09.10.35:980][  0]LogInit: Texture streaming: Enabled
+[2018.10.25-09.10.36:066][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.25-09.10.36:096][  0]LogInit: Transaction tracking system initialized
+[2018.10.25-09.10.36:204][  0]BlueprintLog: New page: Editor Load
+[2018.10.25-09.10.36:883][  0]LocalizationService: Localization service is disabled
+[2018.10.25-09.10.37:652][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.25-09.10.37:652][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.25-09.10.37:652][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.25-09.10.37:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.25-09.10.37:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.25-09.10.37:653][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.25-09.10.37:653][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.25-09.10.38:292][  0]LogFileCache: Scanning file cache for directory 'C:/Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/' took 0.03s
+[2018.10.25-09.10.38:333][  0]SourceControl: Source control is disabled
+[2018.10.25-09.10.38:333][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.25-09.10.38:339][  0]LightingResults: New page: Lighting Build
+[2018.10.25-09.10.38:343][  0]MapCheck: New page: Map Check
+[2018.10.25-09.10.38:343][  0]LightingResults: New page: Lighting Build
+[2018.10.25-09.10.38:588][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.25-09.10.38:606][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.25-09.10.38:637][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.25-09.10.38:746][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 108.851ms to complete.
+[2018.10.25-09.10.38:746][  0]LogFileHelpers: Loading map 'Template_Default' took 0.413
+[2018.10.25-09.10.38:913][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.10.38:920][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.10.38:929][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.10.38:938][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.10.38:977][  0]LogCollectionManager: Loaded 0 collections in 0.003331 seconds
+[2018.10.25-09.10.39:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Saved/Collections/' took 0.01s
+[2018.10.25-09.10.39:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/Developers/p018236h/Collections/' took 0.01s
+[2018.10.25-09.10.39:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/Collections/' took 0.01s
+[2018.10.25-09.10.39:046][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.25-09.10.39:060][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 2580 classes and 606 folders.
+[2018.10.25-09.10.39:074][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.25-09.10.39:523][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.25-09.10.39:552][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.10.25-09.10.39:587][  0]LogSlate: Took 0.007637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.25-09.10.39:595][  0]LogSlate: Took 0.006036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.25-09.10.39:609][  0]LogSlate: Took 0.005659 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.25-09.10.39:822][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.25-09.10.39:958][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.25-09.10.40:007][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.10.25-09.10.40:082][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.10.25-09.10.40:082][  0]LogLoad: (Engine Initialization) Total time: 14.63 seconds
+[2018.10.25-09.10.40:082][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.25-09.10.40:094][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.25-09.10.40:135][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.25-09.10.40:328][  4]LogAssetRegistry: Asset discovery search completed in 9.4757 seconds
+[2018.10.25-09.10.40:331][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.25-09.10.40:331][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000196 seconds (updated 0 objects)
+[2018.10.25-09.10.43:488][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.25-09.10.43:573][365]LogSlate: Took 0.011542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.25-09.10.45:196][554]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/' took 5.08s
+[2018.10.25-09.10.52:053][344]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.25-09.10.52:146][344]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.10.52:147][344]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
+[2018.10.25-09.10.52:147][344]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData
+[2018.10.25-09.10.52:171][344]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.10.52:172][344]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
+[2018.10.25-09.10.52:176][344]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.10.52:177][344]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.10.25-09.10.52:178][344]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.10.52:179][344]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.10.25-09.10.52:209][344]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.10.52:209][344]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.10.25-09.10.52:210][344]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.10.25-09.10.52:269][344]LogTexture: Display: Building textures: Face (AutoDXT, 2100X1500)
+[2018.10.25-09.10.52:269][344]LogTexture: Display: Building textures: MainMenuBackground (AutoDXT, 2100X1500)
+[2018.10.25-09.10.52:363][344]LogTexture: Display: Building textures: Suit (AutoDXT, 2100X1500)
+[2018.10.25-09.10.52:363][344]LogMaterial: Display: Missing cached shader map for material VampireFace, compiling. 
+[2018.10.25-09.10.52:421][344]LogMaterial: Display: Missing cached shader map for material VampireSuit, compiling. 
+[2018.10.25-09.10.52:453][344]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.25-09.10.52:453][344]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.25-09.10.52:453][344]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.25-09.10.52:465][344]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.25-09.10.52:473][344]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2018.10.25-09.10.52:503][344]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.25-09.10.52:507][344]Cmd: MAP LOAD FILE="../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.25-09.10.52:508][344]LightingResults: New page: Lighting Build
+[2018.10.25-09.10.52:509][344]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.10.25-09.10.52:509][344]MapCheck: New page: Map Check
+[2018.10.25-09.10.52:509][344]LightingResults: New page: Lighting Build
+[2018.10.25-09.10.52:550][344]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.25-09.10.52:629][344]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.25-09.10.52:782][344]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151.989ms to complete.
+[2018.10.25-09.10.52:785][344]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.279
+[2018.10.25-09.10.53:321][391]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.25-09.10.53:348][391]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.25-09.10.53:349][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.25-09.10.53:365][391]PIE: New page: PIE session: ThirdPersonExampleMap (25 Oct 2018 11:10:53)
+[2018.10.25-09.10.53:365][391]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.25-09.10.53:392][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026167s)
+[2018.10.25-09.10.53:393][391]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.25-09.10.53:393][391]LogPlayLevel: PIE: World Init took: (0.001418s)
+[2018.10.25-09.10.53:394][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028250s)
+[2018.10.25-09.10.53:429][391]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.25-09.10.53:448][391]LogInit: FAudioDevice initialized.
+[2018.10.25-09.10.53:503][391]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.25-09.10.53:507][391]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.25-10.10.53
+[2018.10.25-09.10.53:508][391]LogWorld: Bringing up level for play took: 0.002249
+[2018.10.25-09.10.53:530][391]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.10.25-09.10.53:530][391]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.25-09.10.53:531][391]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.25-09.10.53:531][391]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.25-09.10.53:535][391]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.25-09.10.53:535][391]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.117
+[2018.10.25-09.10.53:535][391]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.25-09.10.53:883][423]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.25-09.10.54:294][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.10.54:295][469]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.25-09.10.54:296][469]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.25-09.10.54:297][469]LogNet: Browse: /Game/MainMenu/TestLevel
+[2018.10.25-09.10.54:297][469]LogLoad: LoadMap: /Game/MainMenu/TestLevel
+[2018.10.25-09.10.54:524][469]LogTexture: Display: Building textures: PLATEOX2 (BGRA8, 378X256)
+[2018.10.25-09.10.54:524][469]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.10.25-09.10.54:524][469]LogMaterial: Display: Missing cached shader map for material 04_-_Default, compiling. 
+[2018.10.25-09.10.54:546][469]LogStaticMesh: Building static mesh Town_Box08...
+[2018.10.25-09.10.54:561][469]LogStaticMesh: Built static mesh [0.01s] /Game/tawn/Town/Town_Box08.Town_Box08
+[2018.10.25-09.10.54:609][469]LogMaterial: Display: Missing cached shader map for material 08_-_Default, compiling. 
+[2018.10.25-09.10.54:633][469]LogMaterial: Display: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2018.10.25-09.10.54:706][469]LogStaticMesh: Building static mesh Town_Rectangle01...
+[2018.10.25-09.10.54:724][469]LogStaticMesh: Built static mesh [0.02s] /Game/tawn/Town/Town_Rectangle01.Town_Rectangle01
+[2018.10.25-09.10.55:038][469]LogTexture: Display: Building textures: OpenfootageNETwallsIII07_copy (BGRA8, 3040X1989)
+[2018.10.25-09.10.55:039][469]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.10.25-09.11.07:725][469]LogTexture: Display: Building textures: OpenfootageNETwallsIII08_copy (AutoDXT, 2592X3872)
+[2018.10.25-09.11.07:725][469]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.10.25-09.11.07:725][469]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.10.25-09.11.07:725][469]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.10.25-09.11.07:725][469]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.10.25-09.11.07:725][469]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.10.25-09.11.07:725][469]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.10.25-09.11.07:725][469]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.10.25-09.11.07:725][469]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.10.25-09.11.07:726][469]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.25-09.11.07:726][469]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.25-09.11.07:726][469]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.25-09.11.07:726][469]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.25-09.11.07:726][469]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.25-09.11.07:726][469]LogMaterial: Display: Missing cached shader map for material 02_-_Default, compiling. 
+[2018.10.25-09.11.07:747][469]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.25-09.11.07:747][469]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.25-09.11.07:747][469]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.25-09.11.08:175][469]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.25-09.11.08:176][469]LogLoad: Game class is 'TopHatSoloProjectGameMode'
+[2018.10.25-09.11.08:260][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:260][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.08:260][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:260][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.08:260][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:260][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:261][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.08:267][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:267][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.08:267][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:267][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.08:268][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:268][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.08:268][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:268][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.08:268][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:269][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.08:269][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:269][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.08:269][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:269][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.08:269][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:269][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.08:270][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:270][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.08:270][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:271][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.08:271][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:271][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.08:271][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:271][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.08:272][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:273][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.08:273][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:273][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.08:273][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:273][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.08:273][469]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.08:273][469]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.08:288][469]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.10.25-10.11.08
+[2018.10.25-09.11.08:290][469]LogWorld: Bringing up level for play took: 0.067388
+[2018.10.25-09.11.08:291][469]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.10.25-09.11.08:292][469]LogLoad: Took 13.993567 seconds to LoadMap(/Game/MainMenu/TestLevel)
+[2018.10.25-09.11.19:606][801]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.25-09.11.19:606][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.11.19:651][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.25-09.11.19:651][801]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.25-09.11.19:687][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.11.19:711][802]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.10.25-09.11.21:810][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.25-09.11.24:116][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.25-09.11.26:252][515]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.25-09.11.26:271][515]LogAssetEditorManager: Opening Asset editor for World /Game/MainMenu/TestLevel.TestLevel
+[2018.10.25-09.11.26:307][515]Cmd: MAP LOAD FILE="../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.25-09.11.26:307][515]LightingResults: New page: Lighting Build
+[2018.10.25-09.11.26:308][515]LoadErrors: New page: Loading map: TestLevel.umap
+[2018.10.25-09.11.26:309][515]MapCheck: New page: Map Check
+[2018.10.25-09.11.26:309][515]LightingResults: New page: Lighting Build
+[2018.10.25-09.11.26:385][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:386][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.26:386][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:386][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.26:386][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:386][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.26:386][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:386][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.26:386][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:386][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.26:387][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:387][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.26:387][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:387][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.26:387][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:387][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.26:393][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:393][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.26:393][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:394][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.26:394][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:394][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.26:394][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:394][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.26:394][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:394][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.26:395][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:395][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.26:395][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:395][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.26:395][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:395][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.26:396][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:396][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.26:396][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:396][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.26:396][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:396][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.26:397][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:397][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.26:397][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:397][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.26:397][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:397][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.26:397][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:397][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.26:398][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:398][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.26:398][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:398][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.26:398][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:398][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.26:398][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:398][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.26:398][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:399][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.26:399][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:399][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.26:399][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:399][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.26:399][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:399][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.26:399][515]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.26:399][515]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.26:426][515]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.25-09.11.26:506][515]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.25-09.11.26:694][515]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 187.777ms to complete.
+[2018.10.25-09.11.26:701][515]LogFileHelpers: Loading map 'TestLevel' took 0.395
+[2018.10.25-09.11.29:895][875]LogEditorViewport: Clicking on Actor (LMB): Vampire_Player_C (Vampire_Player)
+[2018.10.25-09.11.38:850][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.25-09.11.51:516][194]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.11.51:517][194]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
+[2018.10.25-09.11.51:517][194]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData
+[2018.10.25-09.11.51:530][194]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.11.51:531][194]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
+[2018.10.25-09.11.51:536][194]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.11.51:536][194]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.10.25-09.11.51:537][194]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.11.51:538][194]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.10.25-09.11.51:562][194]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.10.25-09.11.51:562][194]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.10.25-09.11.51:562][194]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.10.25-09.11.51:573][194]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.25-09.11.51:585][194]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2018.10.25-09.11.52:873][194]LogSlate: Window 'Save Content' being destroyed
+[2018.10.25-09.11.53:437][194]LogSavePackage: Moving '../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Saved/TestLevel6539B3E847C88342ACF9389A830417F4.tmp' to '../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/TestLevel.umap'
+[2018.10.25-09.11.53:482][194]LogFileHelpers: Saving map 'TestLevel' took 0.602
+[2018.10.25-09.11.53:483][194]Cmd: MAP LOAD FILE="../../../../../../Users/p018236h/Documents/GitHub/TGP_SoloProject/TopHatSoloProject/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.25-09.11.53:483][194]LightingResults: New page: Lighting Build
+[2018.10.25-09.11.53:484][194]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2018.10.25-09.11.53:525][194]MapCheck: New page: Map Check
+[2018.10.25-09.11.53:525][194]LightingResults: New page: Lighting Build
+[2018.10.25-09.11.53:581][194]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.25-09.11.53:635][194]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.25-09.11.53:767][194]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 131.606ms to complete.
+[2018.10.25-09.11.53:767][194]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.285
+[2018.10.25-09.11.55:104][338]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.25-09.11.55:124][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.25-09.11.55:125][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.25-09.11.55:125][338]PIE: New page: PIE session: ThirdPersonExampleMap (25 Oct 2018 11:11:55)
+[2018.10.25-09.11.55:125][338]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.25-09.11.55:143][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017857s)
+[2018.10.25-09.11.55:144][338]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.25-09.11.55:144][338]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2018.10.25-09.11.55:144][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019086s)
+[2018.10.25-09.11.55:174][338]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.25-09.11.55:188][338]LogInit: FAudioDevice initialized.
+[2018.10.25-09.11.55:228][338]LogLoad: Game class is 'VampireGameMode_C'
+[2018.10.25-09.11.55:232][338]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.25-10.11.55
+[2018.10.25-09.11.55:232][338]LogWorld: Bringing up level for play took: 0.002682
+[2018.10.25-09.11.55:249][338]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.25-09.11.55:249][338]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.25-09.11.55:249][338]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.25-09.11.55:255][338]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.25-09.11.55:255][338]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.837
+[2018.10.25-09.11.55:255][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.25-09.11.55:837][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.11.55:840][400]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.25-09.11.55:843][400]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.25-09.11.55:844][400]LogNet: Browse: /Game/MainMenu/TestLevel
+[2018.10.25-09.11.55:844][400]LogLoad: LoadMap: /Game/MainMenu/TestLevel
+[2018.10.25-09.11.55:991][400]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.25-09.11.55:991][400]LogLoad: Game class is 'TopHatSoloProjectGameMode'
+[2018.10.25-09.11.55:994][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:994][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.55:994][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:994][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.55:994][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:994][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:995][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.55:999][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:999][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.55:999][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:999][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.55:999][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.55:999][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:000][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.56:001][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:001][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.56:001][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:001][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.56:001][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:001][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.56:001][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:001][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.56:002][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:002][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.11.56:002][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:002][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.11.56:002][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:002][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.11.56:002][400]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.11.56:002][400]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.11.56:013][400]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.10.25-10.11.56
+[2018.10.25-09.11.56:013][400]LogWorld: Bringing up level for play took: 0.022579
+[2018.10.25-09.11.56:014][400]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.10.25-09.11.56:015][400]LogLoad: Took 0.170976 seconds to LoadMap(/Game/MainMenu/TestLevel)
+[2018.10.25-09.11.59:328][791]LogBlueprintUserMessages: [TopHatPickUp7_5] 1
+[2018.10.25-09.12.01:107][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.25-09.12.01:108][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.12.01:155][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.25-09.12.01:155][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.25-09.12.01:203][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.25-09.12.01:223][  2]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.25-09.12.11:614][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.25-09.12.16:854][798]LogSlate: Took 0.007142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.25-09.12.25:753][798]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Vampire_Player.Vampire_Player
+[2018.10.25-09.12.26:220][798]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.10.25-09.12.27:150][798]LogSlate: Took 0.010078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.25-09.12.30:169][ 15]LogSlate: Window 'Vampire_Player' being destroyed
+[2018.10.25-09.12.30:173][ 15]LogSlate: Window 'Vampire_Player' being destroyed
+[2018.10.25-09.12.47:002][847]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PickUp/TopHatBoost.TopHatBoost
+[2018.10.25-09.12.47:291][847]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.12.47:291][847]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.12.47:291][847]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.12.47:292][847]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.12.47:292][847]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.12.47:292][847]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.12.47:292][847]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.12.47:293][847]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.12.47:293][847]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.12.47:293][847]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.25-09.12.47:294][847]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.12.47:294][847]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.25-09.12.47:294][847]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.12.47:294][847]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.25-09.12.47:294][847]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.25-09.12.47:294][847]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.25-09.12.58:957][193]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PickUp/TopHatPickUp.TopHatPickUp
+[2018.10.25-09.13.27:132][269]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Vampire_Player.Vampire_Player
+[2018.10.25-09.13.29:499][418]LogSlate: Window 'Vampire_Player' being destroyed

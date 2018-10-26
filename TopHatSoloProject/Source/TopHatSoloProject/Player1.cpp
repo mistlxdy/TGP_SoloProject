@@ -86,6 +86,12 @@ void APlayer1::SetTopHatCount(int newTopHatCount)
 	TopHatCount = newTopHatCount;
 }
 
+//int APlayer1::GetPlayerSpeed(float valueX, float valueY)
+//{
+//	return CurrentVelocity.X = valueX;
+//	return CurrentVelocity.Y = valueY;
+//}
+
 //void APlayer1::CheckTopHatCount()
 //{
 //	if (TopHatCount = 5)
