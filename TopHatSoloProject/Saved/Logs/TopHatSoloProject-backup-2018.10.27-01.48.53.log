@@ -1,0 +1,666 @@
+﻿Log file open, 10/27/18 01:42:03
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TopHatSoloProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.542085
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.199s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.036s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.27-00.42.03:730][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.27-00.42.03:730][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.27-00.42.03:744][  0]LogHAL: Display: Platform has ~ 32 GB [34272002048 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.27-00.42.03:744][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.27-00.42.03:745][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.27-00.42.03:745][  0]LogInit: Computer: D105-17
+[2018.10.27-00.42.03:745][  0]LogInit: User: p018236h
+[2018.10.27-00.42.03:745][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.27-00.42.03:745][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2018.10.27-00.42.03:745][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.10.27-00.42.03:745][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.27-00.42.03:746][  0]LogMemory: Process Physical Memory: 102.03 MB used, 102.03 MB peak
+[2018.10.27-00.42.03:746][  0]LogMemory: Process Virtual Memory: 85.61 MB used, 85.61 MB peak
+[2018.10.27-00.42.03:746][  0]LogMemory: Physical Memory: 8574.20 MB used,  24110.13 MB free, 32684.33 MB total
+[2018.10.27-00.42.03:746][  0]LogMemory: Virtual Memory: 4634.59 MB used,  24110.13 MB free, 134217728.00 MB total
+[2018.10.27-00.42.03:861][  0]LogInit: Using OS detected language (en-US).
+[2018.10.27-00.42.03:861][  0]LogInit: Using OS detected locale (en-GB).
+[2018.10.27-00.42.03:863][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.27-00.42.04:247][  0]LogStreaming: Display: Took  0.387s to InitEngineTextLocalization.
+[2018.10.27-00.42.04:248][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.27-00.42.04:300][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.27-00.42.04:300][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.27-00.42.04:643][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.27-00.42.04:643][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.27-00.42.04:731][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.27-00.42.04:731][  0]LogD3D11RHI:       8088/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.27-00.42.04:736][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.27-00.42.04:736][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.27-00.42.04:736][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.27-00.42.04:745][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.27-00.42.04:745][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.27-00.42.04:745][  0]LogWindows: EnumDisplayDevices:
+[2018.10.27-00.42.04:746][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.27-00.42.04:746][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.10.27-00.42.04:747][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.27-00.42.04:747][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.27-00.42.04:748][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.27-00.42.04:748][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.27-00.42.04:748][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.10.27-00.42.04:748][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.10.27-00.42.04:748][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.10.27-00.42.04:800][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.27-00.42.04:818][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.27-00.42.04:905][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (E:/TGP/TGP_SoloProject/TopHatSoloProject/Intermediate/Shaders/WorkingDirectory/7440/).
+[2018.10.27-00.42.04:906][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/p018236h/AppData/Local/Temp/UnrealShaderWorkingDir/E9CBD5D746EFE62CA21BBC84D47B32F7/'.
+[2018.10.27-00.42.05:258][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.27-00.42.05:276][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.27-00.42.05:294][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.27-00.42.05:313][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.27-00.42.05:333][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.27-00.42.05:351][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.27-00.42.05:371][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.27-00.42.05:389][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.27-00.42.05:405][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.27-00.42.05:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:498][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.27-00.42.05:503][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.27-00.42.05:576][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.27-00.42.05:576][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.27-00.42.05:608][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.27-00.42.05:608][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.27-00.42.05:623][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.27-00.42.05:639][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.27-00.42.05:654][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.27-00.42.05:673][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.27-00.42.05:685][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.27-00.42.05:686][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.27-00.42.05:862][  0]LogXGEController: Cleaning working directory: C:/Users/p018236h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.27-00.42.05:863][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.27-00.42.05:863][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.27-00.42.05:863][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.27-00.42.06:945][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.27-00.42.07:047][  0]LogDerivedDataCache: Loaded boot cache 0.10s 73MB C:/Users/p018236h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.27-00.42.07:048][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/p018236h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.27-00.42.07:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/TGP/TGP_SoloProject/TopHatSoloProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.27-00.42.07:048][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.27-00.42.07:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/TGP/TGP_SoloProject/TopHatSoloProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.27-00.42.07:048][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.27-00.42.07:062][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.27-00.42.07:075][  0]LogDerivedDataCache: Using Local data cache path C:/Users/p018236h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.27-00.42.07:075][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.27-00.42.07:075][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.27-00.42.07:098][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.27-00.42.07:099][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.27-00.42.07:100][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.27-00.42.07:190][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
+[2018.10.27-00.42.07:608][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.27-00.42.07:804][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.27-00.42.07:815][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.27-00.42.07:815][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.27-00.42.07:815][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.27-00.42.07:815][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.27-00.42.07:834][  0]LogNetVersion: TopHatSoloProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 426773178)
+[2018.10.27-00.42.08:488][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.147642 seconds
+[2018.10.27-00.42.08:496][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.27-00.42.08:496][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.27-00.42.08:496][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.27-00.42.09:749][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.27-00.42.09:766][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.27-00.42.10:177][  0]SourceControl: Source control is disabled
+[2018.10.27-00.42.10:177][  0]SourceControl: Source control is disabled
+[2018.10.27-00.42.10:182][  0]SourceControl: Source control is disabled
+[2018.10.27-00.42.10:186][  0]SourceControl: Source control is disabled
+[2018.10.27-00.42.10:511][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.27-00.42.10:619][  0]LogOcInput: OculusInput pre-init called
+[2018.10.27-00.42.10:700][  0]LogEngine: Initializing Engine...
+[2018.10.27-00.42.10:701][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.27-00.42.10:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.27-00.42.10:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.27-00.42.10:703][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.27-00.42.10:703][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.27-00.42.10:935][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.27-00.42.10:959][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.27-00.42.10:974][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.27-00.42.11:026][  0]LogInit: FAudioDevice initialized.
+[2018.10.27-00.42.11:027][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.27-00.42.11:120][  0]LogDerivedDataCache: Saved boot cache 0.09s 73MB C:/Users/p018236h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.27-00.42.11:147][  0]LogInit: Texture streaming: Enabled
+[2018.10.27-00.42.11:186][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.27-00.42.11:186][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={EC8C30D9-44C6-6FDB-FC1C-978093E5F16E}
+[2018.10.27-00.42.11:206][  0]LogInit: Transaction tracking system initialized
+[2018.10.27-00.42.11:267][  0]BlueprintLog: New page: Editor Load
+[2018.10.27-00.42.11:511][  0]LocalizationService: Localization service is disabled
+[2018.10.27-00.42.11:901][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.27-00.42.11:902][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.27-00.42.11:902][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.27-00.42.11:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.27-00.42.11:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.27-00.42.11:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.27-00.42.11:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.27-00.42.12:151][  0]LogFileCache: Scanning file cache for directory 'E:/TGP/TGP_SoloProject/TopHatSoloProject/Content/' took 0.05s
+[2018.10.27-00.42.12:151][  0]SourceControl: Source control is disabled
+[2018.10.27-00.42.12:152][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.27-00.42.12:152][  0]LightingResults: New page: Lighting Build
+[2018.10.27-00.42.12:157][  0]MapCheck: New page: Map Check
+[2018.10.27-00.42.12:158][  0]LightingResults: New page: Lighting Build
+[2018.10.27-00.42.12:340][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.27-00.42.12:350][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.27-00.42.12:377][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.27-00.42.12:575][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 197.899ms to complete.
+[2018.10.27-00.42.12:575][  0]LogFileHelpers: Loading map 'Template_Default' took 0.423
+[2018.10.27-00.42.12:692][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.42.12:700][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.42.12:707][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.42.12:716][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.42.12:730][  0]LogCollectionManager: Loaded 0 collections in 0.004080 seconds
+[2018.10.27-00.42.12:782][  0]LogFileCache: Scanning file cache for directory 'E:/TGP/TGP_SoloProject/TopHatSoloProject/Saved/Collections/' took 0.01s
+[2018.10.27-00.42.12:783][  0]LogFileCache: Scanning file cache for directory 'E:/TGP/TGP_SoloProject/TopHatSoloProject/Content/Developers/p018236h/Collections/' took 0.01s
+[2018.10.27-00.42.12:783][  0]LogFileCache: Scanning file cache for directory 'E:/TGP/TGP_SoloProject/TopHatSoloProject/Content/Collections/' took 0.01s
+[2018.10.27-00.42.12:783][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.27-00.42.12:792][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2580 classes and 606 folders.
+[2018.10.27-00.42.12:808][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.27-00.42.12:896][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.27-00.42.12:906][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.27-00.42.12:958][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.27-00.42.12:958][  0]LogLoad: (Engine Initialization) Total time: 12.73 seconds
+[2018.10.27-00.42.12:958][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.27-00.42.12:968][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.27-00.42.13:004][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.27-00.42.13:005][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.27-00.42.13:007][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.27-00.42.13:014][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.27-00.42.13:182][  1]LogRenderer: Reallocating scene render targets to support 804x376 Format 10 NumSamples 1 (Frame:1).
+[2018.10.27-00.42.13:249][  2]LogSlate: Took 0.000756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.27-00.42.13:333][  5]LogAssetRegistry: Asset discovery search completed in 6.1663 seconds
+[2018.10.27-00.42.13:335][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.27-00.42.13:335][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000137 seconds (updated 0 objects)
+[2018.10.27-00.42.17:994][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.27-00.42.18:185][582]LogFileCache: Retrieving MD5 hashes for directory 'E:/TGP/TGP_SoloProject/TopHatSoloProject/Content/' took 5.20s
+[2018.10.27-00.42.19:445][727]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:659).
+[2018.10.27-00.42.25:699][471]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.27-00.42.26:115][471]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.27-00.42.26:152][471]LogAssetEditorManager: Opening Asset editor for World /Game/MainMenu/TestLevel.TestLevel
+[2018.10.27-00.42.26:179][471]Cmd: MAP LOAD FILE="E:/TGP/TGP_SoloProject/TopHatSoloProject/Content/MainMenu/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.27-00.42.26:179][471]LightingResults: New page: Lighting Build
+[2018.10.27-00.42.26:180][471]LoadErrors: New page: Loading map: TestLevel.umap
+[2018.10.27-00.42.26:181][471]MapCheck: New page: Map Check
+[2018.10.27-00.42.26:181][471]LightingResults: New page: Lighting Build
+[2018.10.27-00.42.26:239][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:239][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.26:239][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:239][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.26:239][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:240][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.26:240][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:240][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.26:240][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:240][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.26:240][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:240][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.26:240][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:241][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.26:241][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:241][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:251][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.26:252][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:252][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.26:252][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:252][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.26:252][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:252][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.26:253][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:253][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.26:253][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:253][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.26:253][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:253][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.26:253][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:253][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.26:254][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:255][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.26:256][471]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.26:256][471]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.26:257][471]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.27-00.42.26:318][471]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.27-00.42.26:553][471]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 234.871ms to complete.
+[2018.10.27-00.42.26:555][471]LogFileHelpers: Loading map 'TestLevel' took 0.377
+[2018.10.27-00.42.27:577][584]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.27-00.42.28:999][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.27-00.42.29:082][752]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.27-00.42.29:101][752]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.42.29:101][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.27-00.42.29:116][752]PIE: New page: PIE session: TestLevel (27 Oct 2018 02:42:29)
+[2018.10.27-00.42.29:116][752]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_TestLevel
+[2018.10.27-00.42.29:151][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035625s)
+[2018.10.27-00.42.29:153][752]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.27-00.42.29:153][752]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2018.10.27-00.42.29:153][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/TestLevel.TestLevel to /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel (0.037444s)
+[2018.10.27-00.42.29:182][752]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.27-00.42.29:197][752]LogInit: FAudioDevice initialized.
+[2018.10.27-00.42.29:244][752]LogLoad: Game class is 'TopHatSoloProjectGameMode'
+[2018.10.27-00.42.29:254][752]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.42.29:255][752]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.29:256][752]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.42.29:256][752]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.29:256][752]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.42.29:256][752]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.42.29:256][752]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.42.29:257][752]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.10.27-01.42.29
+[2018.10.27-00.42.29:258][752]LogWorld: Bringing up level for play took: 0.012172
+[2018.10.27-00.42.29:279][752]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.10.27-00.42.29:281][752]PIE: Play in editor start time for /Game/MainMenu/UEDPIE_0_TestLevel -0.018
+[2018.10.27-00.42.29:281][752]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.42.43:225][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.42.43:225][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.42.43:266][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.27-00.42.43:266][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.42.43:294][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.42.43:330][419]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.10.27-00.43.14:729][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.27-00.43.14:997][682]Candidate modules for hot reload:
+[2018.10.27-00.43.14:997][682]  TopHatSoloProject
+[2018.10.27-00.43.14:997][682]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TopHatSoloProject,2287 Win64 Development -TargetType=Editor -Project="E:/TGP/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" -canskiplink "E:/TGP/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" ]
+[2018.10.27-00.43.15:002][682]Warning: Starting HotReload took  0.0s.
+[2018.10.27-00.43.21:648][462]CompilerResultsLog: New page: Compilation - 27 Oct 2018 02:43:21
+[2018.10.27-00.43.21:648][462]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.27-00.43.21:648][462]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.27-00.43.21:648][462]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.10.27-00.43.21:649][462]CompilerResultsLog:   [1/3] Player1.cpp
+[2018.10.27-00.43.21:649][462]CompilerResultsLog:   [2/3] UE4Editor-TopHatSoloProject-2287.lib
+[2018.10.27-00.43.21:649][462]CompilerResultsLog:      Creating library E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject-2287.lib and object E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject-2287.exp
+[2018.10.27-00.43.21:649][462]CompilerResultsLog:   [3/3] UE4Editor-TopHatSoloProject-2287.dll
+[2018.10.27-00.43.21:649][462]CompilerResultsLog:      Creating library E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject-2287.suppressed.lib and object E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject-2287.suppressed.exp
+[2018.10.27-00.43.21:649][462]CompilerResultsLog: Total build time: 6.28 seconds (Parallel executor: 2.61 seconds)
+[2018.10.27-00.43.21:649][462]LogMainFrame: MainFrame: Module compiling took 6.660 seconds
+[2018.10.27-00.43.21:708][462]LogContentBrowser: Native class hierarchy updated for 'TopHatSoloProject' in 0.0004 seconds. Added 8 classes and 3 folders.
+[2018.10.27-00.43.21:710][462]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.10.27-00.43.21:871][462]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2581 classes and 608 folders.
+[2018.10.27-00.43.21:880][462]Display: HotReload took  6.9s.
+[2018.10.27-00.43.23:354][635]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.27-00.43.23:391][635]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.43.23:391][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.27-00.43.23:391][635]PIE: New page: PIE session: TestLevel (27 Oct 2018 02:43:23)
+[2018.10.27-00.43.23:391][635]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_TestLevel
+[2018.10.27-00.43.23:412][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020876s)
+[2018.10.27-00.43.23:413][635]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.27-00.43.23:413][635]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2018.10.27-00.43.23:414][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/TestLevel.TestLevel to /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel (0.022146s)
+[2018.10.27-00.43.23:441][635]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.27-00.43.23:456][635]LogInit: FAudioDevice initialized.
+[2018.10.27-00.43.23:491][635]LogLoad: Game class is 'TopHatSoloProjectGameMode'
+[2018.10.27-00.43.23:499][635]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.43.23:499][635]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.43.23:499][635]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.43.23:499][635]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.43.23:499][635]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.43.23:499][635]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.43.23:499][635]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.43.23:499][635]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.43.23:500][635]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.43.23:500][635]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.43.23:500][635]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.43.23:500][635]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.43.23:500][635]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.43.23:500][635]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.43.23:500][635]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.43.23:500][635]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.43.23:501][635]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.10.27-01.43.23
+[2018.10.27-00.43.23:502][635]LogWorld: Bringing up level for play took: 0.010056
+[2018.10.27-00.43.23:516][635]PIE: Play in editor start time for /Game/MainMenu/UEDPIE_0_TestLevel 0.216
+[2018.10.27-00.43.23:517][635]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.43.27:042][ 54]LogBlueprintUserMessages: [TopHatPickUp6_2] 1
+[2018.10.27-00.43.34:235][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.43.34:235][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.43.34:281][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.27-00.43.34:281][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.43.34:308][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.43.34:339][919]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.27-00.43.36:164][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.27-00.43.37:461][267]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Vampire_Player.Vampire_Player
+[2018.10.27-00.43.37:963][267]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.10.27-00.43.38:833][267]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.27-00.43.38:905][268]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.27-00.44.27:773][ 97]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.27-00.44.27:792][ 97]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.44.27:792][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.27-00.44.27:792][ 97]PIE: New page: PIE session: TestLevel (27 Oct 2018 02:44:27)
+[2018.10.27-00.44.27:792][ 97]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_TestLevel
+[2018.10.27-00.44.27:814][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021528s)
+[2018.10.27-00.44.27:815][ 97]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.27-00.44.27:815][ 97]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2018.10.27-00.44.27:815][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/TestLevel.TestLevel to /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel (0.022974s)
+[2018.10.27-00.44.27:889][ 97]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.27-00.44.27:904][ 97]LogInit: FAudioDevice initialized.
+[2018.10.27-00.44.27:940][ 97]LogLoad: Game class is 'TopHatSoloProjectGameMode'
+[2018.10.27-00.44.27:947][ 97]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.44.27:948][ 97]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.44.27:949][ 97]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.44.27:949][ 97]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.44.27:949][ 97]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.44.27:949][ 97]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.44.27:950][ 97]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.10.27-01.44.27
+[2018.10.27-00.44.27:952][ 97]LogWorld: Bringing up level for play took: 0.010509
+[2018.10.27-00.44.27:965][ 97]PIE: Play in editor start time for /Game/MainMenu/UEDPIE_0_TestLevel 0.663
+[2018.10.27-00.44.27:966][ 97]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.44.42:539][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.44.42:539][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.44.42:583][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.27-00.44.42:583][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.44.42:617][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.44.42:641][841]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.10.27-00.44.44:564][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.27-00.44.44:670][ 82]Candidate modules for hot reload:
+[2018.10.27-00.44.44:670][ 82]  TopHatSoloProject
+[2018.10.27-00.44.44:670][ 82]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TopHatSoloProject,7073 Win64 Development -TargetType=Editor -Project="E:/TGP/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" -canskiplink "E:/TGP/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" ]
+[2018.10.27-00.44.44:675][ 82]Warning: Starting HotReload took  0.0s.
+[2018.10.27-00.44.49:616][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.27-00.44.49:714][667]CompilerResultsLog: New page: Compilation - 27 Oct 2018 02:44:49
+[2018.10.27-00.44.49:715][667]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.27-00.44.49:715][667]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.27-00.44.49:715][667]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.10.27-00.44.49:715][667]CompilerResultsLog:   [1/3] Player1.cpp
+[2018.10.27-00.44.49:715][667]LogMainFrame: MainFrame: Module compiling took 5.053 seconds
+[2018.10.27-00.44.49:715][667]Warning: HotReload failed, recompile failed
+[2018.10.27-00.44.59:361][ 75]Candidate modules for hot reload:
+[2018.10.27-00.44.59:361][ 75]  TopHatSoloProject
+[2018.10.27-00.44.59:362][ 75]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TopHatSoloProject,6990 Win64 Development -TargetType=Editor -Project="E:/TGP/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" -canskiplink "E:/TGP/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" ]
+[2018.10.27-00.44.59:367][ 75]Warning: Starting HotReload took  0.0s.
+[2018.10.27-00.45.07:251][995]CompilerResultsLog: New page: Compilation - 27 Oct 2018 02:45:07
+[2018.10.27-00.45.07:251][995]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.27-00.45.07:251][995]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.27-00.45.07:251][995]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2018.10.27-00.45.07:252][995]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.10.27-00.45.07:252][995]CompilerResultsLog:   [1/3] Player1.cpp
+[2018.10.27-00.45.07:252][995]CompilerResultsLog:   [2/3] UE4Editor-TopHatSoloProject-6990.lib
+[2018.10.27-00.45.07:252][995]CompilerResultsLog:      Creating library E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject-6990.lib and object E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject-6990.exp
+[2018.10.27-00.45.07:252][995]CompilerResultsLog:   [3/3] UE4Editor-TopHatSoloProject-6990.dll
+[2018.10.27-00.45.07:252][995]CompilerResultsLog:      Creating library E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject-6990.suppressed.lib and object E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject-6990.suppressed.exp
+[2018.10.27-00.45.07:252][995]CompilerResultsLog: Total build time: 7.50 seconds (Parallel executor: 2.41 seconds)
+[2018.10.27-00.45.07:252][995]LogMainFrame: MainFrame: Module compiling took 7.899 seconds
+[2018.10.27-00.45.07:331][995]LogContentBrowser: Native class hierarchy updated for 'TopHatSoloProject' in 0.0004 seconds. Added 8 classes and 3 folders.
+[2018.10.27-00.45.07:336][995]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.10.27-00.45.07:694][995]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2581 classes and 608 folders.
+[2018.10.27-00.45.07:694][995]Display: HotReload took  8.3s.
+[2018.10.27-00.45.23:005][813]LogSlate: Window 'Message Log' being destroyed
+[2018.10.27-00.45.23:007][813]LogSlate: Window 'Message Log' being destroyed
+[2018.10.27-00.45.24:221][957]Candidate modules for hot reload:
+[2018.10.27-00.45.24:221][957]  TopHatSoloProject
+[2018.10.27-00.45.24:221][957]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TopHatSoloProject,6154 Win64 Development -TargetType=Editor -Project="E:/TGP/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" -canskiplink "E:/TGP/TGP_SoloProject/TopHatSoloProject/TopHatSoloProject.uproject" ]
+[2018.10.27-00.45.24:226][957]Warning: Starting HotReload took  0.0s.
+[2018.10.27-00.45.28:182][414]CompilerResultsLog: New page: Compilation - 27 Oct 2018 02:45:28
+[2018.10.27-00.45.28:182][414]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.10.27-00.45.28:182][414]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.27-00.45.28:182][414]CompilerResultsLog: Target is up to date
+[2018.10.27-00.45.28:182][414]CompilerResultsLog: Total build time: 3.61 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.10.27-00.45.28:182][414]LogMainFrame: MainFrame: Module compiling took 3.969 seconds
+[2018.10.27-00.45.28:483][414]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2581 classes and 608 folders.
+[2018.10.27-00.45.28:483][414]Display: HotReload took  4.3s.
+[2018.10.27-00.45.31:023][714]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.27-00.45.31:043][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.45.31:043][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.27-00.45.31:043][714]PIE: New page: PIE session: TestLevel (27 Oct 2018 02:45:31)
+[2018.10.27-00.45.31:043][714]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_TestLevel
+[2018.10.27-00.45.31:069][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025454s)
+[2018.10.27-00.45.31:071][714]LogAIModule: Creating AISystem for world TestLevel
+[2018.10.27-00.45.31:071][714]LogPlayLevel: PIE: World Init took: (0.002039s)
+[2018.10.27-00.45.31:071][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/TestLevel.TestLevel to /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel (0.027929s)
+[2018.10.27-00.45.31:142][714]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.27-00.45.31:157][714]LogInit: FAudioDevice initialized.
+[2018.10.27-00.45.31:191][714]LogLoad: Game class is 'TopHatSoloProjectGameMode'
+[2018.10.27-00.45.31:198][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.45.31:198][714]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.45.31:198][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.45.31:199][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.45.31:200][714]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.45.31:200][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.45.31:200][714]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.45.31:201][714]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.10.27-01.45.31
+[2018.10.27-00.45.31:202][714]LogWorld: Bringing up level for play took: 0.009658
+[2018.10.27-00.45.31:215][714]PIE: Play in editor start time for /Game/MainMenu/UEDPIE_0_TestLevel -0.089
+[2018.10.27-00.45.31:216][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.45.39:083][652]LogBlueprintUserMessages: [TopHatPickUp4_8] 1
+[2018.10.27-00.45.51:727][168]LogBlueprintUserMessages: [TopHatPickUp_2] 2
+[2018.10.27-00.45.53:704][400]LogBlueprintUserMessages: [TopHatPickUp2_2] 3
+[2018.10.27-00.45.55:563][623]LogBlueprintUserMessages: [TopHatPickUp3_5] 4
+[2018.10.27-00.45.57:565][863]LogBlueprintUserMessages: [TopHatPickUp6_2] 5
+[2018.10.27-00.46.04:193][658]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.46.04:193][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.46.04:240][658]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.27-00.46.04:240][658]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/MainMenu/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/MainMenu/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2018.10.27-00.46.04:271][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.27-00.46.04:295][659]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.27-00.46.10:786][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.27-00.46.24:050][491]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PickUp/TopHatBoost.TopHatBoost
+[2018.10.27-00.46.24:375][491]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.46.24:375][491]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.46.24:375][491]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.46.24:375][491]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.46.24:375][491]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.46.24:375][491]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.46.24:375][491]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.46.24:375][491]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.46.24:376][491]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.46.24:376][491]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[0] invalid
+[2018.10.27-00.46.24:376][491]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.46.24:376][491]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[1] invalid
+[2018.10.27-00.46.24:376][491]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.46.24:376][491]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[2] invalid
+[2018.10.27-00.46.24:376][491]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.27-00.46.24:376][491]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cone.Cone] ScaledElem[3] invalid
+[2018.10.27-00.46.28:050][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.

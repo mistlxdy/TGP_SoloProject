@@ -37,10 +37,7 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = "Top Hat Right Feather")
 	UStaticMeshComponent* TopHatRightFeatherMesh;
 
-	APlayer1* vampirePlayer;
-
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	void SpeedBoost(float value);
 };

@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 	TOPHATSOLOPROJECT_API UClass* Z_Construct_UClass_APlayer1();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_TopHatSoloProject();
+	TOPHATSOLOPROJECT_API UFunction* Z_Construct_UFunction_APlayer1_ActivateSpeedBoost();
+	TOPHATSOLOPROJECT_API UFunction* Z_Construct_UFunction_APlayer1_BoostCheck();
 	TOPHATSOLOPROJECT_API UFunction* Z_Construct_UFunction_APlayer1_GetTopHatCount();
 	TOPHATSOLOPROJECT_API UFunction* Z_Construct_UFunction_APlayer1_SetTopHatCount();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -25,10 +27,68 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 	{
 		UClass* Class = APlayer1::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ActivateSpeedBoost", &APlayer1::execActivateSpeedBoost },
+			{ "BoostCheck", &APlayer1::execBoostCheck },
 			{ "GetTopHatCount", &APlayer1::execGetTopHatCount },
 			{ "SetTopHatCount", &APlayer1::execSetTopHatCount },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APlayer1_ActivateSpeedBoost_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer1_ActivateSpeedBoost_Statics::Function_MetaDataParams[] = {
+		{ "Category", "BOOSTY BOY" },
+		{ "ModuleRelativePath", "Player1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer1_ActivateSpeedBoost_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer1, "ActivateSpeedBoost", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer1_ActivateSpeedBoost_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer1_ActivateSpeedBoost_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayer1_ActivateSpeedBoost()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer1_ActivateSpeedBoost_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlayer1_BoostCheck_Statics
+	{
+		struct Player1_eventBoostCheck_Parms
+		{
+			float DeltaTime;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DeltaTime;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_APlayer1_BoostCheck_Statics::NewProp_DeltaTime = { UE4CodeGen_Private::EPropertyClass::Float, "DeltaTime", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Player1_eventBoostCheck_Parms, DeltaTime), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayer1_BoostCheck_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayer1_BoostCheck_Statics::NewProp_DeltaTime,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayer1_BoostCheck_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Boost Check" },
+		{ "ModuleRelativePath", "Player1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayer1_BoostCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayer1, "BoostCheck", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Player1_eventBoostCheck_Parms), Z_Construct_UFunction_APlayer1_BoostCheck_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APlayer1_BoostCheck_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayer1_BoostCheck_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APlayer1_BoostCheck_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayer1_BoostCheck()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayer1_BoostCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_APlayer1_GetTopHatCount_Statics
 	{
@@ -108,6 +168,14 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentBoostTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_currentBoostTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_boostDuration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_boostDuration;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TopHatCount_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TopHatCount;
@@ -144,6 +212,8 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TopHatSoloProject,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APlayer1_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APlayer1_ActivateSpeedBoost, "ActivateSpeedBoost" }, // 3174950039
+		{ &Z_Construct_UFunction_APlayer1_BoostCheck, "BoostCheck" }, // 4187510856
 		{ &Z_Construct_UFunction_APlayer1_GetTopHatCount, "GetTopHatCount" }, // 2302923568
 		{ &Z_Construct_UFunction_APlayer1_SetTopHatCount, "SetTopHatCount" }, // 1017957078
 	};
@@ -154,6 +224,20 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 		{ "ModuleRelativePath", "Player1.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer1_Statics::NewProp_currentBoostTime_MetaData[] = {
+		{ "Category", "Boost" },
+		{ "ModuleRelativePath", "Player1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer1_Statics::NewProp_currentBoostTime = { UE4CodeGen_Private::EPropertyClass::Float, "currentBoostTime", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(APlayer1, currentBoostTime), METADATA_PARAMS(Z_Construct_UClass_APlayer1_Statics::NewProp_currentBoostTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer1_Statics::NewProp_currentBoostTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer1_Statics::NewProp_boostDuration_MetaData[] = {
+		{ "Category", "Boost" },
+		{ "ModuleRelativePath", "Player1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayer1_Statics::NewProp_boostDuration = { UE4CodeGen_Private::EPropertyClass::Float, "boostDuration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(APlayer1, boostDuration), METADATA_PARAMS(Z_Construct_UClass_APlayer1_Statics::NewProp_boostDuration_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer1_Statics::NewProp_boostDuration_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatCount_MetaData[] = {
 		{ "Category", "TopHat" },
@@ -212,6 +296,8 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayer1_Statics::NewProp_VampireHeadMeshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "VampireHeadMeshComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a0009, 1, nullptr, STRUCT_OFFSET(APlayer1, VampireHeadMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayer1_Statics::NewProp_VampireHeadMeshComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayer1_Statics::NewProp_VampireHeadMeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayer1_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer1_Statics::NewProp_currentBoostTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer1_Statics::NewProp_boostDuration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatCount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatBaseMeshcomponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayer1_Statics::NewProp_TopHatRingMeshComponent,
@@ -243,7 +329,7 @@ void EmptyLinkFunctionForGeneratedCodePlayer1() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayer1, 565782847);
+	IMPLEMENT_CLASS(APlayer1, 869712890);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayer1(Z_Construct_UClass_APlayer1, &APlayer1::StaticClass, TEXT("/Script/TopHatSoloProject"), TEXT("APlayer1"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayer1);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

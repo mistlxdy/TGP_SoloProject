@@ -2,6 +2,7 @@
 
 #include "Player1.h"
 #include "Components/StaticMeshComponent.h"
+#include "Runtime/Engine/Classes/Engine/Engine.h"
 
 // Sets default values
 APlayer1::APlayer1()
@@ -10,9 +11,11 @@ APlayer1::APlayer1()
 	PrimaryActorTick.bCanEverTick = true;
 
 
+
 	//setting up the player
 	VampireBodyMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Vampire's body"));
 	RootComponent = VampireBodyMeshComponent;
+
 
 	VampireHeadMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Vampire's head"));
 	VampireHeadMeshComponent->SetupAttachment(VampireBodyMeshComponent);
@@ -36,7 +39,6 @@ APlayer1::APlayer1()
 void APlayer1::BeginPlay()
 {
 	Super::BeginPlay();
-	//RootComponent->AddLocalRotation(FRotator(0, -90, 0));
 }
 
 // Called every frame
@@ -57,23 +59,22 @@ void APlayer1::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayer1::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayer1::MoveRight);
-	//PlayerInputComponent->BindAxis("Jump", IE_Pressed, this, &APlayer1::Jump);
+	PlayerInputComponent->BindAxis("Rotate", this, &APlayer1::Rotate);
 }
 
 void APlayer1::MoveForward(float value)
 {
-	CurrentVelocity.X = value * 500;
+	CurrentVelocity.X = value * movementSpeed;
 }
 
 void APlayer1::MoveRight(float value)
 {
-	CurrentVelocity.Y = value * 500;
+	CurrentVelocity.Y = value * movementSpeed;
 }
 
-void APlayer1::Jump(float value)
+void APlayer1::Rotate(float value)
 {
-	// TODO : THIS
-	CurrentVelocity.Z = value * 100;
+	VampireBodyMeshComponent->AddWorldRotation(FQuat(FRotator(0.0f, value, 0.0f)));
 }
 
 int APlayer1::GetTopHatCount()
@@ -99,3 +100,23 @@ void APlayer1::SetTopHatCount(int newTopHatCount)
 //		FGenericPlatformMisc::RequestExit(false);
 //	}
 //}
+
+void APlayer1::BoostCheck(float DeltaTime)
+{
+	if (boosted)
+	{
+		currentBoostTime += DeltaTime;
+		if (currentBoostTime > boostDuration)
+		{
+			boosted = false;
+			movementSpeed = 500.0f;
+		}
+	}
+}
+
+void APlayer1::ActivateSpeedBoost()
+{
+	boosted = true;
+	currentBoostTime = 0.0f;
+	movementSpeed = 1000.0f;
+}

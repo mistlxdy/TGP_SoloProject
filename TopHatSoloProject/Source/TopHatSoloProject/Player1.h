@@ -48,7 +48,8 @@ public:
 
 	virtual void MoveForward(float value);
 	virtual void MoveRight(float value);
-	virtual void Jump(float value);
+	//virtual void Jump(float value);
+	virtual void Rotate(float value);
 
 	FVector CurrentVelocity;
 	FVector NewLocation;
@@ -61,8 +62,18 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "TopHat")
 	void SetTopHatCount(int newTopHatCount);
 
-	//UFUNCTION(BlueprintCallable, Category = "Player Speed")
-	//int GetPlayerSpeed(float valueX, float valueY);
+	UFUNCTION(BlueprintCallable, Category = "Boost Check")
+	void BoostCheck(float DeltaTime);
 
-	void CheckTopHatCount();
+	UFUNCTION(BlueprintCallable, Category = "BOOSTY BOY")
+	void ActivateSpeedBoost();
+
+	UPROPERTY(EditAnywhere, Category = "Boost")
+	float boostDuration = 5.0f;
+
+	float movementSpeed = 500.0f;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Boost")
+	float currentBoostTime;
+	bool boosted = false;
 };

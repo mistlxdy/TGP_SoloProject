@@ -15,6 +15,23 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define TopHatSoloProject_Source_TopHatSoloProject_Player1_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execActivateSpeedBoost) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActivateSpeedBoost(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBoostCheck) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaTime); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BoostCheck(Z_Param_DeltaTime); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetTopHatCount) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_newTopHatCount); \
@@ -34,6 +51,23 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define TopHatSoloProject_Source_TopHatSoloProject_Player1_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execActivateSpeedBoost) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActivateSpeedBoost(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBoostCheck) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DeltaTime); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BoostCheck(Z_Param_DeltaTime); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetTopHatCount) \
 	{ \
