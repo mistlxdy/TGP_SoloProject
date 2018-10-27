@@ -1,4 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+<<<<<<< HEAD
   Creating makefile for TopHatSoloProjectEditor (ini files are newer than UBTMakefile)
   Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
@@ -37,3 +38,24 @@
        Creating library E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.lib and object E:\TGP\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.exp
   Deploying TopHatSoloProjectEditor Win64 Development...
   Total build time: 24.77 seconds (Parallel executor: 2.26 seconds)
+=======
+<<<<<<< HEAD
+  Parsing headers for TopHatSoloProjectEditor
+    Running UnrealHeaderTool "E:\TGP_SoloProject\TopHatSoloProject\TopHatSoloProject.uproject" "E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\TopHatSoloProjectEditor\Development\TopHatSoloProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TopHatSoloProjectEditor in 13.5797473 seconds
+  Building 5 actions with 4 processes...
+    [1/5] TopHatSoloProject.init.gen.cpp
+    [2/5] Timer.gen.cpp
+    [3/5] Timer.cpp
+    [4/5] UE4Editor-TopHatSoloProject.lib
+       Creating library E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.lib and object E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.exp
+    [5/5] UE4Editor-TopHatSoloProject.dll
+       Creating library E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.lib and object E:\TGP_SoloProject\TopHatSoloProject\Intermediate\Build\Win64\UE4Editor\Development\TopHatSoloProject\UE4Editor-TopHatSoloProject.suppressed.exp
+  Deploying TopHatSoloProjectEditor Win64 Development...
+  Total build time: 20.28 seconds (Parallel executor: 3.48 seconds)
+=======
+  Target is up to date
+  Deploying TopHatSoloProjectEditor Win64 Development...
+  Total build time: 1.48 seconds (NoActionsToExecute executor: 0.00 seconds)
+>>>>>>> e311092741a558465f4efca2ca3c9d6563780ca1
+>>>>>>> bda9c81a30f3488d48c88d7938eaafcde932d110
