@@ -75,3 +75,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+TopHatSoloProject/Intermediate/Build/Win64/UE4Editor/Inc/TopHatSoloProject/TopHatSoloProject.init.gen.cpp
+TopHatSoloProject/Intermediate/Build/Unused/TopHatSoloProject.log
